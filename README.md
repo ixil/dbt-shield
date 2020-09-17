@@ -1,4 +1,5 @@
 # dbt-shield
 
-![front pic](https://github.com/periandr/dbt-shield/blob/master/PCB V5.PNG)
-![34 pic](https://github.com/periandr/dbt-shield/blob/master/dbtshield.PNG)
+![3/4](https://github.com/periandr/dbt-shield/blob/master/PCB01.PNG)
+![FRONT](https://github.com/periandr/dbt-shield/blob/master/PCB02.PNG)
+![BACK](https://github.com/periandr/dbt-shield/blob/master/PCB02.PNG)
