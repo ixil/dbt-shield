@@ -4,10 +4,9 @@
 
 Add description
 
-<p align="center">
-  <img src="https://github.com/hiiragii/dbt-shield/blob/master/PCB02.png " width="720">
-  <img src="https://github.com/hiiragii/dbt-shield/blob/master/PCB03.png " width="720">
-</p>
+![front](https://github.com/hiiragii/dbt-shield/blob/master/PCB02.png)
+![back](https://github.com/hiiragii/dbt-shield/blob/master/PCB03.png)
+
 
 # Pinout
 
