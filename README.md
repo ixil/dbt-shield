@@ -11,7 +11,7 @@ Add description
 # Pinout
 
 add pinout
-![pinout](https://github.com/hiiragii/dbt-shield/blob/master/images/PINOUT.png)
+![pinout](https://github.com/hiiragii/dbt-shield/blob/master/images/MINIPINOUT.png)
 
 
 # Set-up
