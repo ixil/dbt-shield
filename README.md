@@ -22,7 +22,7 @@ Mini-shield: Filament extrusion controller for UR arms, to be used in the MAS ET
 ### Specs
 ---
 4bit 24V digital Input\
-2x TMC2130 Stepper Driver
+2x TMC2130 Stepper Driver\
 2x 100W MOSFETS\
 3x 500mW MOSFETS\
-1x 104NT thermistor\
+1x 104NT thermistor
