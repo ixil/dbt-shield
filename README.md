@@ -27,4 +27,4 @@ Mini-shield: Filament extrusion controller for UR arms, to be used in the MAS ET
 3x 500mW MOSFETS\
 1x 104NT thermistor
 
-[Pin-Out / Set-Up / Connections](../blob/master/mini/README.md)
+[Pin-Out / Set-Up / Connections](../blob/master/mini)
