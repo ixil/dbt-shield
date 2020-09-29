@@ -10,7 +10,7 @@ The 2x16 pin terminal blocks on the right side are directly connected to the res
 + Connect the thermistor leads to TH0+ and TH0-, polarity doesn't matter.
 + Connect the super-volcano heater to OUT3 and GND (first 2 pins on the terminal block).
 + Connect the first stepper coil to M1.1A and M1.1B. Connect the second coil to M1.2A and M1.2B. Polarity doesn't matter, you can reverse the direction of rotation directly in software or by swapping 2 leads of the same coil (eg. M1.1A and M1.1B).  
-+ Lastly 
++ Connect the 5 lead cable to the 4-bit input terminal block, where IN.b3 is the MSB.
 
 ## Set-up
 ---
