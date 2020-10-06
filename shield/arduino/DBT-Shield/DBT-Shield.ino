@@ -29,11 +29,13 @@ double Setpoint, Input, Output;
 //Specify the links and initial tuning parameters
 double Kp=2, Ki=5, Kd=1;
 PID myPID(&Input, &Output, &Setpoint, Kp, Ki, Kd, DIRECT);
-int WindowSize = 5000;
+
+const int WindowSize = 5000;
 unsigned long windowStartTime;
+unsigned long time_1 = 0;
 char buffer[64];
 int sofar;
-float mm, fr;
+float mm, fr, flow;
 bool heaterOn = false;
 
 /********************************************************
@@ -65,12 +67,13 @@ void help(){
   Serial.println("M18; - disable motors");
   Serial.println("M104 [R(temperature)]; - set extruder temperature");
   Serial.println("M108; - cancel heating");
+  Serial.println("M111; [R(flow)]- flow multiplier *1%");
   Serial.println("M100; -help");
 }
 
 void ready() {
   sofar=0; // clear input buffer
-  Serial.print(F("> ")); // signal ready to receive input
+  //Serial.print(F("> ")); // signal ready to receive input
 }
 
 float parseNumber(char code,float val) {
@@ -103,6 +106,9 @@ void processCommand(){
       Serial.println("COLD EXTRUSION PREVENTED");      
     }
     break; 
+    case 69:
+      TOOL_SPEED = TOOL_SPEED + 10;
+    break;
   default: break;
   }
 
@@ -114,12 +120,32 @@ void processCommand(){
     break;
   case 100: help(); break;
   case 104:
-    Setpoint =parseNumber('R', Setpoint); 
-    heaterOn = true;
+    Setpoint = parseNumber('R', Setpoint); 
+    break;
+  case 105:
+    heaterOn = true; break;
   case 108:
-    heaterOn = false;
+    heaterOn = false; break;
+  case 111:
+    flow = parseNumber('R', flow);
   default: break;
   } 
+}
+
+void print_stat(){
+    // T = temp , S = speed , H = heateron , 
+    Serial.print("T");
+    Serial.println(Input);
+
+    Serial.print("S");
+    Serial.println(TOOL_SPEED);
+
+    Serial.print("H");
+    Serial.println(heaterOn);
+
+    Serial.println("");
+    //Serial.println();
+
 }
 
 void setup()
@@ -149,7 +175,6 @@ void setup()
   machine.Start();
 
   windowStartTime = millis();
-
   //initialize the variables we're linked to
   Setpoint = 220;
 
@@ -159,19 +184,17 @@ void setup()
   //turn the PID on
   myPID.SetMode(AUTOMATIC);
 
+  Input = 200;
+  flow = 1.0;
+  /*
   Serial.print("Initializing sensor...");
   if (!t1.begin()) {
     Serial.println("ERROR.");
-  }
+  }*/
 }
 
 void loop()
 {
-  Serial.print("C = ");
-  Serial.println(Input);
-
-  Serial.print("TOOL_SPEED = ");
-  Serial.println(TOOL_SPEED);
 
   if(Serial.available()){
     char c = Serial.read();
@@ -184,6 +207,7 @@ void loop()
       ready();
     }
   }
+  
   if(heaterOn){
      myPID.Compute();
     /************************************************
@@ -191,11 +215,22 @@ void loop()
     ************************************************/
     if (millis() - windowStartTime > WindowSize)
     { //time to shift the Relay Window
-      Input = t1.readCelsius();
+      //Input = t1.readCelsius();
+      if(Input < Setpoint) {
+        Input ++;}else{
+        Input--;
+        }
       windowStartTime += WindowSize;
     }
     if (Output < millis() - windowStartTime) digitalWrite(SSR_0_PIN, HIGH);
     else digitalWrite(SSR_0_PIN, LOW);
   }
+  
+  if(millis() > time_1 + 2000){
+    time_1 = millis();
 
+    print_stat();
+  }
+    
+  
 }
