@@ -29,7 +29,7 @@ Mini-shield: Filament extrusion controller for UR arms, to be used in the MAS ET
 
 [Pin-Out / Set-Up / Connections](https://github.com/hiiragii/dbt-shield/tree/master/mini)
 
-## UR 5 FDM 
+### UR5 FDM  
 
 ![ur5](https://github.com/hiiragii/dbt-shield/blob/master/images/ur5aero.png)
 
