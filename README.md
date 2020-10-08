@@ -28,3 +28,10 @@ Mini-shield: Filament extrusion controller for UR arms, to be used in the MAS ET
 1x 104NT thermistor
 
 [Pin-Out / Set-Up / Connections](https://github.com/hiiragii/dbt-shield/tree/master/mini)
+
+## UR 5 FDM 
+
+![ur5](https://github.com/hiiragii/dbt-shield/blob/master/images/ur5aero.png)
+
+UR 5 e3d Titan Aero + Super Volcano mounting bracket
+[stl / step files](https://github.com/hiiragii/dbt-shield/tree/master/ur5aero)
