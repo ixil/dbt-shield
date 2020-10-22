@@ -5,7 +5,7 @@ Mini-shield: Filament extrusion controller for UR arms, to be used in the MAS ET
 
 ## Shield
 ---
-![d](https://github.com/hiiragii/dbt-shield/blob/master/images/DISPLAY.png)
+![d](images/DISPLAY.png)
 
 ### Specs
 ---
@@ -17,7 +17,7 @@ Mini-shield: Filament extrusion controller for UR arms, to be used in the MAS ET
 2x K-Type Thermocouple amplifiers
 
 ## Mini-Shield
-![minid](https://github.com/hiiragii/dbt-shield/blob/master/images/MINIDISPLAY.png)
+![minid](images/MINIDISPLAY.png)
 
 ### Specs
 ---
@@ -31,7 +31,7 @@ Mini-shield: Filament extrusion controller for UR arms, to be used in the MAS ET
 
 ### UR5 FDM  
 
-![ur5](https://github.com/hiiragii/dbt-shield/blob/master/images/ur5aero.png)
+![ur5](images/ur5aero.png)
 
 UR 5 e3d Titan Aero + Super Volcano mounting bracket
 [stl / step files](https://github.com/hiiragii/dbt-shield/tree/master/ur5aero)
