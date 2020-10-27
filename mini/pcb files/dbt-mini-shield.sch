@@ -2025,14 +2025,13 @@ Source: http://www.osram.convergy.de/ ... LO_LS_LY L89K.pdf</description>
 </package>
 </packages>
 <packages3d>
-<package3d name="1017509" urn="urn:adsk.eagle:package:19468130/2" wip_urn="urn:adsk.wipprod:fs.file:vf.JfdBvaLWTvez5_Np0YYUZQ?version=2" locally_modified="yes" type="box">
+<package3d name="1017509" urn="urn:adsk.eagle:package:19468130/2" locally_modified="yes" type="box">
 <description>&lt;b&gt;1017509-1&lt;/b&gt;&lt;br&gt;</description>
 <packageinstances>
 <packageinstance name="1017509"/>
 </packageinstances>
-<metadata pins="" leadSpan="" leadSpan2="" pitch="" pitch2="" bodyLength="" bodyWidth="" height="" ipcFamily="" ipcName="" jedecFamily="" jedecVariant="" mountingType=""/>
 </package3d>
-<package3d name="ARDUINO_MEGA" urn="urn:adsk.eagle:package:37320/1" wip_urn="urn:adsk.wipprod:fs.file:vf.1GUcU57nRmi38w6Fm-M00A?version=1" locally_modified="yes" type="box">
+<package3d name="ARDUINO_MEGA" urn="urn:adsk.eagle:package:37320/1" locally_modified="yes" type="box">
 <description> Arduino MEGA R3 footprint
 Specifications:
 Pin count:82
@@ -2045,86 +2044,36 @@ Arduino Mega R3
 <packageinstances>
 <packageinstance name="ARDUINO_MEGA"/>
 </packageinstances>
-<metadata pins="" leadSpan="" leadSpan2="" pitch="" pitch2="" bodyLength="" bodyWidth="" height="" ipcFamily="" ipcName="" jedecFamily="" jedecVariant="" mountingType=""/>
 </package3d>
-<package3d name="1861991" urn="" wip_urn="urn:adsk.wipprod:fs.file:vf.3p2zNrM9R4G_cC9YF4mKSA?version=4" footprint_name="1861991" locally_modified="yes" type="model">
-<packageinstances>
-<packageinstance name="1861991"/>
-</packageinstances>
-<metadata pins="" leadSpan="" leadSpan2="" pitch="" pitch2="" bodyLength="" bodyWidth="" height="" ipcFamily="" ipcName="" jedecFamily="" jedecVariant="" mountingType=""/>
-</package3d>
-<package3d name="1017507" urn="urn:adsk.eagle:package:19468131/2" wip_urn="urn:adsk.wipprod:fs.file:vf.GR8f90w0Twe2sy-XS5XCgg?version=2" locally_modified="yes" type="box">
+<package3d name="1017507" urn="urn:adsk.eagle:package:19468131/2" locally_modified="yes" type="box">
 <description>&lt;b&gt;1017507-2&lt;/b&gt;&lt;br&gt;</description>
 <packageinstances>
 <packageinstance name="1017507"/>
 </packageinstances>
-<metadata pins="" leadSpan="" leadSpan2="" pitch="" pitch2="" bodyLength="" bodyWidth="" height="" ipcFamily="" ipcName="" jedecFamily="" jedecVariant="" mountingType=""/>
 </package3d>
-<package3d name="SOIC127P700X230-16N" urn="urn:adsk.eagle:package:19468118/2" wip_urn="urn:adsk.wipprod:fs.file:vf.tTWbjwVvQZ6MIZO2yEyCpg?version=2" locally_modified="yes" type="box">
+<package3d name="SOIC127P700X230-16N" urn="urn:adsk.eagle:package:19468118/2" locally_modified="yes" type="box">
 <description>&lt;b&gt;11-11F1_1&lt;/b&gt;&lt;br&gt;</description>
 <packageinstances>
 <packageinstance name="SOIC127P700X230-16N"/>
 </packageinstances>
-<metadata pins="" leadSpan="" leadSpan2="" pitch="" pitch2="" bodyLength="" bodyWidth="" height="" ipcFamily="" ipcName="" jedecFamily="" jedecVariant="" mountingType=""/>
 </package3d>
-<package3d name="1017505" urn="urn:adsk.eagle:package:19468132/2" wip_urn="urn:adsk.wipprod:fs.file:vf.m7DaAFBLSqSKF0bvPRCXpA?version=2" locally_modified="yes" type="box">
+<package3d name="1017505" urn="urn:adsk.eagle:package:19468132/2" locally_modified="yes" type="box">
 <description>&lt;b&gt;1017505-1&lt;/b&gt;&lt;br&gt;</description>
 <packageinstances>
 <packageinstance name="1017505"/>
 </packageinstances>
-<metadata pins="" leadSpan="" leadSpan2="" pitch="" pitch2="" bodyLength="" bodyWidth="" height="" ipcFamily="" ipcName="" jedecFamily="" jedecVariant="" mountingType=""/>
 </package3d>
-<package3d name="1017503" urn="" wip_urn="urn:adsk.wipprod:fs.file:vf.39A9P8nRSk6G3U2_CFvkHg?version=3" footprint_name="1017503" locally_modified="yes" type="model">
-<description>&lt;b&gt;1017503-1&lt;/b&gt;&lt;br&gt;
-</description>
-<packageinstances>
-<packageinstance name="1017503"/>
-</packageinstances>
-<metadata pins="" leadSpan="" leadSpan2="" pitch="" pitch2="" bodyLength="" bodyWidth="" height="" ipcFamily="" ipcName="" jedecFamily="" jedecVariant="" mountingType=""/>
-</package3d>
-<package3d name="PG-TDSON-8" urn="" wip_urn="urn:adsk.wipprod:fs.file:vf.2Sj8-QmDRZO_X1YijbOqag?version=4" footprint_name="PG-TDSON-8" locally_modified="yes" type="model">
-<description>&lt;b&gt;PG-TDSON-8&lt;/b&gt;&lt;br&gt;
-</description>
-<packageinstances>
-<packageinstance name="PG-TDSON-8"/>
-</packageinstances>
-<metadata pins="" leadSpan="" leadSpan2="" pitch="" pitch2="" bodyLength="" bodyWidth="" height="" ipcFamily="" ipcName="" jedecFamily="" jedecVariant="" mountingType=""/>
-</package3d>
-<package3d name="TMC_2130" urn="" wip_urn="urn:adsk.wipprod:fs.file:vf.n5QVlkDpQaejaxmX2LeodA?version=3" footprint_name="TMC_2130" locally_modified="yes" type="model">
-<packageinstances>
-<packageinstance name="TMC_2130"/>
-</packageinstances>
-<metadata pins="" leadSpan="" leadSpan2="" pitch="" pitch2="" bodyLength="" bodyWidth="" height="" ipcFamily="" ipcName="" jedecFamily="" jedecVariant="" mountingType=""/>
-</package3d>
-<package3d name="SOT95P230X110-3NNEW" urn="" wip_urn="urn:adsk.wipprod:fs.file:vf.fJ_VMPssQmibBVHDTQkAAA?version=2" footprint_name="SOT95P230X110-3N" locally_modified="yes" type="model" library_version="19">
-<description>&lt;b&gt;SOT23-ren3&lt;/b&gt;&lt;br&gt;
-</description>
-<packageinstances>
-<packageinstance name="SOT95P230X110-3N"/>
-</packageinstances>
-<metadata pins="" leadSpan="" leadSpan2="" pitch="" pitch2="" bodyLength="" bodyWidth="" height="" ipcFamily="" ipcName="" jedecFamily="" jedecVariant="" mountingType=""/>
-</package3d>
-<package3d name="DC-DC_CONVERTER_78XX" urn="urn:adsk.eagle:package:39086/1" wip_urn="urn:adsk.wipprod:fs.file:vf.1udw4p7OTy6-3ADePweCeg?version=2" locally_modified="yes" type="box" library_version="20">
+<package3d name="DC-DC_CONVERTER_78XX" urn="urn:adsk.eagle:package:39086/1" locally_modified="yes" type="box" library_version="20">
 <packageinstances>
 <packageinstance name="DC-DC_CONVERTER_78XX"/>
 </packageinstances>
-<metadata pins="" leadSpan="" leadSpan2="" pitch="" pitch2="" bodyLength="" bodyWidth="" height="" ipcFamily="" ipcName="" jedecFamily="" jedecVariant="" mountingType=""/>
 </package3d>
-<package3d name="SODFL3618X143N" urn="" wip_urn="urn:adsk.wipprod:fs.file:vf.LAyjOpOuSPicsD6_M4ULSA?version=2" footprint_name="SODFL3618X143N" locally_modified="yes" type="model" library_version="21">
-<description>&lt;b&gt;Sub SMA&lt;/b&gt;&lt;br&gt;
-</description>
-<packageinstances>
-<packageinstance name="SODFL3618X143N"/>
-</packageinstances>
-<metadata pins="" leadSpan="" leadSpan2="" pitch="" pitch2="" bodyLength="" bodyWidth="" height="" ipcFamily="" ipcName="" jedecFamily="" jedecVariant="" mountingType=""/>
-</package3d>
-<package3d name="CHIPLED_1206" urn="urn:adsk.eagle:package:6240560/1" wip_urn="urn:adsk.wipprod:fs.file:vf.1inixmgnTTOqVx1GCrRDgw?version=3" locally_modified="yes" type="box" library_version="22">
+<package3d name="CHIPLED_1206" urn="urn:adsk.eagle:package:6240560/1" locally_modified="yes" type="box" library_version="22">
 <description>&lt;b&gt;CHIPLED&lt;/b&gt;&lt;p&gt;
 Source: http://www.osram.convergy.de/ ... LG_LY N971.pdf</description>
 <packageinstances>
 <packageinstance name="CHIPLED_1206"/>
 </packageinstances>
-<metadata pins="" leadSpan="" leadSpan2="" pitch="" pitch2="" bodyLength="" bodyWidth="" height="" ipcFamily="" ipcName="" jedecFamily="" jedecVariant="" mountingType=""/>
 </package3d>
 <package3d name="1206" urn="urn:adsk.eagle:package:6240349/1" type="box" library_version="22">
 <description>&lt;b&gt;CHICAGO MINIATURE LAMP, INC.&lt;/b&gt;&lt;p&gt;
@@ -2132,7 +2081,6 @@ Source: http://www.osram.convergy.de/ ... LG_LY N971.pdf</description>
 <packageinstances>
 <packageinstance name="1206"/>
 </packageinstances>
-<metadata pins="" leadSpan="" leadSpan2="" pitch="" pitch2="" bodyLength="" bodyWidth="" height="" ipcFamily="" ipcName="" jedecFamily="" jedecVariant="" mountingType=""/>
 </package3d>
 <package3d name="LD260" urn="urn:adsk.eagle:package:6240535/1" type="box" library_version="22">
 <description>&lt;B&gt;LED&lt;/B&gt;&lt;p&gt;
@@ -2140,7 +2088,6 @@ Source: http://www.osram.convergy.de/ ... LG_LY N971.pdf</description>
 <packageinstances>
 <packageinstance name="LD260"/>
 </packageinstances>
-<metadata pins="" leadSpan="" leadSpan2="" pitch="" pitch2="" bodyLength="" bodyWidth="" height="" ipcFamily="" ipcName="" jedecFamily="" jedecVariant="" mountingType=""/>
 </package3d>
 <package3d name="LED2X5" urn="urn:adsk.eagle:package:6240536/1" type="box" library_version="22">
 <description>&lt;B&gt;LED&lt;/B&gt;&lt;p&gt;
@@ -2148,7 +2095,6 @@ Source: http://www.osram.convergy.de/ ... LG_LY N971.pdf</description>
 <packageinstances>
 <packageinstance name="LED2X5"/>
 </packageinstances>
-<metadata pins="" leadSpan="" leadSpan2="" pitch="" pitch2="" bodyLength="" bodyWidth="" height="" ipcFamily="" ipcName="" jedecFamily="" jedecVariant="" mountingType=""/>
 </package3d>
 <package3d name="LED3MM" urn="urn:adsk.eagle:package:6240537/1" type="box" library_version="22">
 <description>&lt;B&gt;LED&lt;/B&gt;&lt;p&gt;
@@ -2156,7 +2102,6 @@ Source: http://www.osram.convergy.de/ ... LG_LY N971.pdf</description>
 <packageinstances>
 <packageinstance name="LED3MM"/>
 </packageinstances>
-<metadata pins="" leadSpan="" leadSpan2="" pitch="" pitch2="" bodyLength="" bodyWidth="" height="" ipcFamily="" ipcName="" jedecFamily="" jedecVariant="" mountingType=""/>
 </package3d>
 <package3d name="LED5MM" urn="urn:adsk.eagle:package:6240538/1" type="box" library_version="22">
 <description>&lt;B&gt;LED&lt;/B&gt;&lt;p&gt;
@@ -2164,7 +2109,6 @@ Source: http://www.osram.convergy.de/ ... LG_LY N971.pdf</description>
 <packageinstances>
 <packageinstance name="LED5MM"/>
 </packageinstances>
-<metadata pins="" leadSpan="" leadSpan2="" pitch="" pitch2="" bodyLength="" bodyWidth="" height="" ipcFamily="" ipcName="" jedecFamily="" jedecVariant="" mountingType=""/>
 </package3d>
 <package3d name="LSU260" urn="urn:adsk.eagle:package:6240539/1" type="box" library_version="22">
 <description>&lt;B&gt;LED&lt;/B&gt;&lt;p&gt;
@@ -2172,7 +2116,6 @@ Source: http://www.osram.convergy.de/ ... LG_LY N971.pdf</description>
 <packageinstances>
 <packageinstance name="LSU260"/>
 </packageinstances>
-<metadata pins="" leadSpan="" leadSpan2="" pitch="" pitch2="" bodyLength="" bodyWidth="" height="" ipcFamily="" ipcName="" jedecFamily="" jedecVariant="" mountingType=""/>
 </package3d>
 <package3d name="LZR181" urn="urn:adsk.eagle:package:6240540/1" type="box" library_version="22">
 <description>&lt;B&gt;LED BLOCK&lt;/B&gt;&lt;p&gt;
@@ -2180,7 +2123,6 @@ Source: http://www.osram.convergy.de/ ... LG_LY N971.pdf</description>
 <packageinstances>
 <packageinstance name="LZR181"/>
 </packageinstances>
-<metadata pins="" leadSpan="" leadSpan2="" pitch="" pitch2="" bodyLength="" bodyWidth="" height="" ipcFamily="" ipcName="" jedecFamily="" jedecVariant="" mountingType=""/>
 </package3d>
 <package3d name="Q62902-B152" urn="urn:adsk.eagle:package:6240541/1" type="box" library_version="22">
 <description>&lt;b&gt;LED HOLDER&lt;/b&gt;&lt;p&gt;
@@ -2188,7 +2130,6 @@ Siemens</description>
 <packageinstances>
 <packageinstance name="Q62902-B152"/>
 </packageinstances>
-<metadata pins="" leadSpan="" leadSpan2="" pitch="" pitch2="" bodyLength="" bodyWidth="" height="" ipcFamily="" ipcName="" jedecFamily="" jedecVariant="" mountingType=""/>
 </package3d>
 <package3d name="Q62902-B153" urn="urn:adsk.eagle:package:6240542/1" type="box" library_version="22">
 <description>&lt;b&gt;LED HOLDER&lt;/b&gt;&lt;p&gt;
@@ -2196,7 +2137,6 @@ Siemens</description>
 <packageinstances>
 <packageinstance name="Q62902-B153"/>
 </packageinstances>
-<metadata pins="" leadSpan="" leadSpan2="" pitch="" pitch2="" bodyLength="" bodyWidth="" height="" ipcFamily="" ipcName="" jedecFamily="" jedecVariant="" mountingType=""/>
 </package3d>
 <package3d name="Q62902-B155" urn="urn:adsk.eagle:package:6240543/1" type="box" library_version="22">
 <description>&lt;b&gt;LED HOLDER&lt;/b&gt;&lt;p&gt;
@@ -2204,7 +2144,6 @@ Siemens</description>
 <packageinstances>
 <packageinstance name="Q62902-B155"/>
 </packageinstances>
-<metadata pins="" leadSpan="" leadSpan2="" pitch="" pitch2="" bodyLength="" bodyWidth="" height="" ipcFamily="" ipcName="" jedecFamily="" jedecVariant="" mountingType=""/>
 </package3d>
 <package3d name="Q62902-B156" urn="urn:adsk.eagle:package:6240544/1" type="box" library_version="22">
 <description>&lt;b&gt;LED HOLDER&lt;/b&gt;&lt;p&gt;
@@ -2212,7 +2151,6 @@ Siemens</description>
 <packageinstances>
 <packageinstance name="Q62902-B156"/>
 </packageinstances>
-<metadata pins="" leadSpan="" leadSpan2="" pitch="" pitch2="" bodyLength="" bodyWidth="" height="" ipcFamily="" ipcName="" jedecFamily="" jedecVariant="" mountingType=""/>
 </package3d>
 <package3d name="SFH480" urn="urn:adsk.eagle:package:6240545/1" type="box" library_version="22">
 <description>&lt;B&gt;IR LED&lt;/B&gt;&lt;p&gt;
@@ -2222,7 +2160,6 @@ Inifineon</description>
 <packageinstances>
 <packageinstance name="SFH480"/>
 </packageinstances>
-<metadata pins="" leadSpan="" leadSpan2="" pitch="" pitch2="" bodyLength="" bodyWidth="" height="" ipcFamily="" ipcName="" jedecFamily="" jedecVariant="" mountingType=""/>
 </package3d>
 <package3d name="SFH482" urn="urn:adsk.eagle:package:6240546/1" type="box" library_version="22">
 <description>&lt;B&gt;IR LED&lt;/B&gt;&lt;p&gt;
@@ -2232,7 +2169,6 @@ Inifineon</description>
 <packageinstances>
 <packageinstance name="SFH482"/>
 </packageinstances>
-<metadata pins="" leadSpan="" leadSpan2="" pitch="" pitch2="" bodyLength="" bodyWidth="" height="" ipcFamily="" ipcName="" jedecFamily="" jedecVariant="" mountingType=""/>
 </package3d>
 <package3d name="U57X32" urn="urn:adsk.eagle:package:6240547/1" type="box" library_version="22">
 <description>&lt;B&gt;LED&lt;/B&gt;&lt;p&gt;
@@ -2240,7 +2176,6 @@ rectangle, 5.7 x 3.2 mm</description>
 <packageinstances>
 <packageinstance name="U57X32"/>
 </packageinstances>
-<metadata pins="" leadSpan="" leadSpan2="" pitch="" pitch2="" bodyLength="" bodyWidth="" height="" ipcFamily="" ipcName="" jedecFamily="" jedecVariant="" mountingType=""/>
 </package3d>
 <package3d name="IRL80A" urn="urn:adsk.eagle:package:6240548/1" type="box" library_version="22">
 <description>&lt;B&gt;IR LED&lt;/B&gt;&lt;p&gt;
@@ -2248,7 +2183,6 @@ IR transmitter Siemens</description>
 <packageinstances>
 <packageinstance name="IRL80A"/>
 </packageinstances>
-<metadata pins="" leadSpan="" leadSpan2="" pitch="" pitch2="" bodyLength="" bodyWidth="" height="" ipcFamily="" ipcName="" jedecFamily="" jedecVariant="" mountingType=""/>
 </package3d>
 <package3d name="P-LCC-2" urn="urn:adsk.eagle:package:6240549/1" type="box" library_version="22">
 <description>&lt;b&gt;TOPLED® High-optical Power LED (HOP)&lt;/b&gt;&lt;p&gt;
@@ -2256,7 +2190,6 @@ Source: http://www.osram.convergy.de/ ... ls_t675.pdf</description>
 <packageinstances>
 <packageinstance name="P-LCC-2"/>
 </packageinstances>
-<metadata pins="" leadSpan="" leadSpan2="" pitch="" pitch2="" bodyLength="" bodyWidth="" height="" ipcFamily="" ipcName="" jedecFamily="" jedecVariant="" mountingType=""/>
 </package3d>
 <package3d name="OSRAM-MINI-TOP-LED" urn="urn:adsk.eagle:package:6240550/1" type="box" library_version="22">
 <description>&lt;b&gt;BLUE LINETM Hyper Mini TOPLED® Hyper-Bright LED&lt;/b&gt;&lt;p&gt;
@@ -2264,7 +2197,6 @@ Source: http://www.osram.convergy.de/ ... LB M676.pdf</description>
 <packageinstances>
 <packageinstance name="OSRAM-MINI-TOP-LED"/>
 </packageinstances>
-<metadata pins="" leadSpan="" leadSpan2="" pitch="" pitch2="" bodyLength="" bodyWidth="" height="" ipcFamily="" ipcName="" jedecFamily="" jedecVariant="" mountingType=""/>
 </package3d>
 <package3d name="OSRAM-SIDELED" urn="urn:adsk.eagle:package:6240551/1" type="box" library_version="22">
 <description>&lt;b&gt;Super SIDELED® High-Current LED&lt;/b&gt;&lt;p&gt;
@@ -2273,7 +2205,6 @@ Source: http://www.osram.convergy.de/ ... LG_LP_A672.pdf (2004.05.13)</descripti
 <packageinstances>
 <packageinstance name="OSRAM-SIDELED"/>
 </packageinstances>
-<metadata pins="" leadSpan="" leadSpan2="" pitch="" pitch2="" bodyLength="" bodyWidth="" height="" ipcFamily="" ipcName="" jedecFamily="" jedecVariant="" mountingType=""/>
 </package3d>
 <package3d name="SMART-LED" urn="urn:adsk.eagle:package:6240552/1" type="box" library_version="22">
 <description>&lt;b&gt;SmartLEDTM Hyper-Bright LED&lt;/b&gt;&lt;p&gt;
@@ -2281,7 +2212,6 @@ Source: http://www.osram.convergy.de/ ... LA_LO_LS_LY L896.pdf</description>
 <packageinstances>
 <packageinstance name="SMART-LED"/>
 </packageinstances>
-<metadata pins="" leadSpan="" leadSpan2="" pitch="" pitch2="" bodyLength="" bodyWidth="" height="" ipcFamily="" ipcName="" jedecFamily="" jedecVariant="" mountingType=""/>
 </package3d>
 <package3d name="P-LCC-2-TOPLED-RG" urn="urn:adsk.eagle:package:6240553/1" type="box" library_version="22">
 <description>&lt;b&gt;Hyper TOPLED® RG Hyper-Bright LED&lt;/b&gt;&lt;p&gt;
@@ -2289,7 +2219,6 @@ Source: http://www.osram.convergy.de/ ... LA_LO_LS_LY T776.pdf</description>
 <packageinstances>
 <packageinstance name="P-LCC-2-TOPLED-RG"/>
 </packageinstances>
-<metadata pins="" leadSpan="" leadSpan2="" pitch="" pitch2="" bodyLength="" bodyWidth="" height="" ipcFamily="" ipcName="" jedecFamily="" jedecVariant="" mountingType=""/>
 </package3d>
 <package3d name="MICRO-SIDELED" urn="urn:adsk.eagle:package:6240554/1" type="box" library_version="22">
 <description>&lt;b&gt;Hyper Micro SIDELED®&lt;/b&gt;&lt;p&gt;
@@ -2297,7 +2226,6 @@ Source: http://www.osram.convergy.de/ ... LA_LO_LS_LY Y876.pdf</description>
 <packageinstances>
 <packageinstance name="MICRO-SIDELED"/>
 </packageinstances>
-<metadata pins="" leadSpan="" leadSpan2="" pitch="" pitch2="" bodyLength="" bodyWidth="" height="" ipcFamily="" ipcName="" jedecFamily="" jedecVariant="" mountingType=""/>
 </package3d>
 <package3d name="P-LCC-4" urn="urn:adsk.eagle:package:6240555/1" type="box" library_version="22">
 <description>&lt;b&gt;Power TOPLED®&lt;/b&gt;&lt;p&gt;
@@ -2305,7 +2233,6 @@ Source: http://www.osram.convergy.de/ ... LA_LO_LA_LY E67B.pdf</description>
 <packageinstances>
 <packageinstance name="P-LCC-4"/>
 </packageinstances>
-<metadata pins="" leadSpan="" leadSpan2="" pitch="" pitch2="" bodyLength="" bodyWidth="" height="" ipcFamily="" ipcName="" jedecFamily="" jedecVariant="" mountingType=""/>
 </package3d>
 <package3d name="CHIP-LED0603" urn="urn:adsk.eagle:package:6240556/1" type="box" library_version="22">
 <description>&lt;b&gt;Hyper CHIPLED Hyper-Bright LED&lt;/b&gt;&lt;p&gt;
@@ -2314,7 +2241,6 @@ Source: http://www.osram.convergy.de/ ... Lb_q993.pdf</description>
 <packageinstances>
 <packageinstance name="CHIP-LED0603"/>
 </packageinstances>
-<metadata pins="" leadSpan="" leadSpan2="" pitch="" pitch2="" bodyLength="" bodyWidth="" height="" ipcFamily="" ipcName="" jedecFamily="" jedecVariant="" mountingType=""/>
 </package3d>
 <package3d name="CHIP-LED0805" urn="urn:adsk.eagle:package:6240557/1" type="box" library_version="22">
 <description>&lt;b&gt;Hyper CHIPLED Hyper-Bright LED&lt;/b&gt;&lt;p&gt;
@@ -2323,7 +2249,6 @@ Source: http://www.osram.convergy.de/ ... lb_r99a.pdf</description>
 <packageinstances>
 <packageinstance name="CHIP-LED0805"/>
 </packageinstances>
-<metadata pins="" leadSpan="" leadSpan2="" pitch="" pitch2="" bodyLength="" bodyWidth="" height="" ipcFamily="" ipcName="" jedecFamily="" jedecVariant="" mountingType=""/>
 </package3d>
 <package3d name="MINI-TOPLED-SANTANA" urn="urn:adsk.eagle:package:6240558/1" type="box" library_version="22">
 <description>&lt;b&gt;Mini TOPLED Santana®&lt;/b&gt;&lt;p&gt;
@@ -2331,7 +2256,6 @@ Source: http://www.osram.convergy.de/ ... LG M470.pdf</description>
 <packageinstances>
 <packageinstance name="MINI-TOPLED-SANTANA"/>
 </packageinstances>
-<metadata pins="" leadSpan="" leadSpan2="" pitch="" pitch2="" bodyLength="" bodyWidth="" height="" ipcFamily="" ipcName="" jedecFamily="" jedecVariant="" mountingType=""/>
 </package3d>
 <package3d name="CHIPLED_0805" urn="urn:adsk.eagle:package:6240559/1" type="box" library_version="22">
 <description>&lt;b&gt;CHIPLED&lt;/b&gt;&lt;p&gt;
@@ -2339,7 +2263,6 @@ Source: http://www.osram.convergy.de/ ... LG_R971.pdf</description>
 <packageinstances>
 <packageinstance name="CHIPLED_0805"/>
 </packageinstances>
-<metadata pins="" leadSpan="" leadSpan2="" pitch="" pitch2="" bodyLength="" bodyWidth="" height="" ipcFamily="" ipcName="" jedecFamily="" jedecVariant="" mountingType=""/>
 </package3d>
 <package3d name="CHIPLED_0603" urn="urn:adsk.eagle:package:6240561/1" type="box" library_version="22">
 <description>&lt;b&gt;CHIPLED&lt;/b&gt;&lt;p&gt;
@@ -2347,7 +2270,6 @@ Source: http://www.osram.convergy.de/ ... LG_LY Q971.pdf</description>
 <packageinstances>
 <packageinstance name="CHIPLED_0603"/>
 </packageinstances>
-<metadata pins="" leadSpan="" leadSpan2="" pitch="" pitch2="" bodyLength="" bodyWidth="" height="" ipcFamily="" ipcName="" jedecFamily="" jedecVariant="" mountingType=""/>
 </package3d>
 <package3d name="CHIPLED-0603-TTW" urn="urn:adsk.eagle:package:6240562/1" type="box" library_version="22">
 <description>&lt;b&gt;CHIPLED-0603&lt;/b&gt;&lt;p&gt;
@@ -2358,7 +2280,6 @@ Source: http://www.osram.convergy.de/ ... LO_LS_LY L89K.pdf</description>
 <packageinstances>
 <packageinstance name="CHIPLED-0603-TTW"/>
 </packageinstances>
-<metadata pins="" leadSpan="" leadSpan2="" pitch="" pitch2="" bodyLength="" bodyWidth="" height="" ipcFamily="" ipcName="" jedecFamily="" jedecVariant="" mountingType=""/>
 </package3d>
 <package3d name="SMARTLED-TTW" urn="urn:adsk.eagle:package:6240563/1" type="box" library_version="22">
 <description>&lt;b&gt;SmartLED TTW&lt;/b&gt;&lt;p&gt;
@@ -2369,13 +2290,11 @@ Source: http://www.osram.convergy.de/ ... LO_LS_LY L89K.pdf</description>
 <packageinstances>
 <packageinstance name="SMARTLED-TTW"/>
 </packageinstances>
-<metadata pins="" leadSpan="" leadSpan2="" pitch="" pitch2="" bodyLength="" bodyWidth="" height="" ipcFamily="" ipcName="" jedecFamily="" jedecVariant="" mountingType=""/>
 </package3d>
 <package3d name="SMLK34" urn="urn:adsk.eagle:package:6240838/1" type="box" library_version="22">
 <packageinstances>
 <packageinstance name="SMLK34"/>
 </packageinstances>
-<metadata pins="" leadSpan="" leadSpan2="" pitch="" pitch2="" bodyLength="" bodyWidth="" height="" ipcFamily="" ipcName="" jedecFamily="" jedecVariant="" mountingType=""/>
 </package3d>
 </packages3d>
 <symbols>
@@ -2551,21 +2470,11 @@ Source: http://www.osram.convergy.de/ ... LO_LS_LY L89K.pdf</description>
 <pin name="G" x="0" y="0" visible="pad" length="short"/>
 <pin name="D" x="7.62" y="10.16" visible="pad" length="short" rot="R270"/>
 <pin name="S" x="7.62" y="-5.08" visible="pad" length="short" rot="R90"/>
-<polygonshape width="0.254" layer="94">
-<polygonoutlineobjects>
-<vertex x="6.985" y="3.253490625"/>
-<vertex x="5.715" y="2.618490625"/>
-<vertex x="5.715" y="2.461509375"/>
-<vertex x="6.985" y="1.826509375"/>
-</polygonoutlineobjects>
-<polygonoutlinesegments>
-<vertex x="6.985" y="3.253490625"/>
-<vertex x="5.715" y="2.618490625"/>
-<vertex x="5.715" y="2.461509375"/>
-<vertex x="6.985" y="1.826509375"/>
-<vertex x="6.985" y="3.253490625"/>
-</polygonoutlinesegments>
-</polygonshape>
+<polygon width="0.254" layer="94" pour="solid">
+<vertex x="5.842" y="2.54"/>
+<vertex x="6.858" y="2.032"/>
+<vertex x="6.858" y="3.048"/>
+</polygon>
 </symbol>
 <symbol name="ES1ALHR3" library_version="13">
 <wire x1="5.08" y1="0" x2="10.16" y2="2.54" width="0.254" layer="94"/>
@@ -2705,36 +2614,16 @@ Source: http://www.osram.convergy.de/ ... LO_LS_LY L89K.pdf</description>
 <text x="5.715" y="-4.572" size="1.778" layer="96" rot="R90">&gt;VALUE</text>
 <pin name="C" x="0" y="-5.08" visible="off" length="short" direction="pas" rot="R90"/>
 <pin name="A" x="0" y="2.54" visible="off" length="short" direction="pas" rot="R270"/>
-<polygonshape layer="94">
-<polygonoutlineobjects>
-<vertex x="-2.406534375" y="-1.803703125"/>
-<vertex x="-3.073703125" y="-1.136534375"/>
-<vertex x="-3.5193625" y="-2.176403125"/>
-<vertex x="-3.446403125" y="-2.2493625"/>
-</polygonoutlineobjects>
-<polygonoutlinesegments>
-<vertex x="-2.406534375" y="-1.803703125"/>
-<vertex x="-3.073703125" y="-1.136534375"/>
-<vertex x="-3.5193625" y="-2.176403125"/>
-<vertex x="-3.446403125" y="-2.2493625"/>
-<vertex x="-2.406534375" y="-1.803703125"/>
-</polygonoutlinesegments>
-</polygonshape>
-<polygonshape layer="94">
-<polygonoutlineobjects>
-<vertex x="-2.279534375" y="-2.946703125"/>
-<vertex x="-2.946703125" y="-2.279534375"/>
-<vertex x="-3.3923625" y="-3.319403125"/>
-<vertex x="-3.319403125" y="-3.3923625"/>
-</polygonoutlineobjects>
-<polygonoutlinesegments>
-<vertex x="-2.279534375" y="-2.946703125"/>
-<vertex x="-2.946703125" y="-2.279534375"/>
-<vertex x="-3.3923625" y="-3.319403125"/>
-<vertex x="-3.319403125" y="-3.3923625"/>
-<vertex x="-2.279534375" y="-2.946703125"/>
-</polygonoutlinesegments>
-</polygonshape>
+<polygon width="0.1524" layer="94" pour="solid">
+<vertex x="-3.048" y="-1.27"/>
+<vertex x="-3.429" y="-2.159"/>
+<vertex x="-2.54" y="-1.778"/>
+</polygon>
+<polygon width="0.1524" layer="94" pour="solid">
+<vertex x="-2.921" y="-2.413"/>
+<vertex x="-3.302" y="-3.302"/>
+<vertex x="-2.413" y="-2.921"/>
+</polygon>
 </symbol>
 </symbols>
 <devicesets>
@@ -2752,9 +2641,6 @@ Source: &lt;a href="https://www.phoenixcontact.com/online/portal/gb?uri=pxc-oc-i
 <connect gate="G$1" pin="3" pad="3"/>
 <connect gate="G$1" pin="4" pad="4"/>
 </connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.wipprod:fs.file:vf.39A9P8nRSk6G3U2_CFvkHg?version=3"/>
-</package3dinstances>
 <technologies>
 <technology name="">
 <attribute name="ARROW_PART_NUMBER" value="1017503" constant="no"/>
@@ -2810,7 +2696,7 @@ Source: &lt;a href="https://www.phoenixcontact.com/online/portal/gb?uri=pxc-oc-i
 <connect gate="G$1" pin="9" pad="9"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.wipprod:fs.file:vf.JfdBvaLWTvez5_Np0YYUZQ?version=2"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:19468130/2"/>
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -2927,7 +2813,7 @@ Source: &lt;a href="https://www.phoenixcontact.com/online/portal/gb?uri=pxc-oc-i
 <connect gate="G$1" pin="VIN" pad="VIN"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.wipprod:fs.file:vf.1GUcU57nRmi38w6Fm-M00A?version=1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:37320/1"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
@@ -2959,9 +2845,6 @@ Source: &lt;a href="https://www.phoenixcontact.com/online/portal/gb?uri=pxc-oc-i
 <connect gate="G$1" pin="A8" pad="P$8 P$24"/>
 <connect gate="G$1" pin="A9" pad="P$9 P$25"/>
 </connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.wipprod:fs.file:vf.3p2zNrM9R4G_cC9YF4mKSA?version=4"/>
-</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -2981,9 +2864,6 @@ Source: &lt;a href="http://assets.nexperia.com/documents/data-sheet/PMV40UN2.pdf
 <connect gate="G$1" pin="G" pad="1"/>
 <connect gate="G$1" pin="S" pad="2"/>
 </connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.wipprod:fs.file:vf.fJ_VMPssQmibBVHDTQkAAA?version=2"/>
-</package3dinstances>
 <technologies>
 <technology name="">
 <attribute name="DESCRIPTION" value="MOSFET 30V N-channel Trench MOSFET" constant="no"/>
@@ -3011,9 +2891,6 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/ES1ALHR3.pdf"
 <connect gate="G$1" pin="A" pad="2"/>
 <connect gate="G$1" pin="K" pad="1"/>
 </connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.wipprod:fs.file:vf.LAyjOpOuSPicsD6_M4ULSA?version=2"/>
-</package3dinstances>
 <technologies>
 <technology name="">
 <attribute name="DESCRIPTION" value="Rectifiers 1A, 50V, SUPER FAST SM RECTIFIER" constant="no"/>
@@ -3052,7 +2929,7 @@ Source: &lt;a href="https://www.arrow.com/en/products/1017507/phoenix-contact"&g
 <connect gate="G$1" pin="9" pad="9"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.wipprod:fs.file:vf.GR8f90w0Twe2sy-XS5XCgg?version=2"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:19468131/2"/>
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -3094,7 +2971,7 @@ Source: &lt;a href="https://toshiba.semicon-storage.com/info/docget.jsp?did=1528
 <connect gate="G$1" pin="EMITTER_4" pad="15"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.wipprod:fs.file:vf.tTWbjwVvQZ6MIZO2yEyCpg?version=2"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:19468118/2"/>
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -3130,7 +3007,7 @@ Source: &lt;a href="https://www.phoenixcontact.com/online/portal/gb/?uri=pxc-oc-
 <connect gate="G$1" pin="8" pad="8"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.wipprod:fs.file:vf.m7DaAFBLSqSKF0bvPRCXpA?version=2"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:19468132/2"/>
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -3167,9 +3044,6 @@ Source: &lt;a href="https://www.infineon.com/dgdl/Infineon-BSC082N10LS-DS-v01_07
 <connect gate="G$1" pin="S_2" pad="2"/>
 <connect gate="G$1" pin="S_3" pad="3"/>
 </connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.wipprod:fs.file:vf.2Sj8-QmDRZO_X1YijbOqag?version=4"/>
-</package3dinstances>
 <technologies>
 <technology name="">
 <attribute name="ARROW_PART_NUMBER" value="BSC082N10LSGATMA1" constant="no"/>
@@ -3209,9 +3083,6 @@ Source: &lt;a href="https://www.infineon.com/dgdl/Infineon-BSC082N10LS-DS-v01_07
 <connect gate="G$1" pin="VIO" pad="2"/>
 <connect gate="G$1" pin="VM" pad="8"/>
 </connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.wipprod:fs.file:vf.n5QVlkDpQaejaxmX2LeodA?version=3"/>
-</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -3246,7 +3117,7 @@ Specifications:
 <connect gate="G$1" pin="OUT" pad="VOUT"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.wipprod:fs.file:vf.1udw4p7OTy6-3ADePweCeg?version=2"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:39086/1"/>
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -3639,7 +3510,7 @@ Source: http://www.osram.convergy.de/</description>
 <connect gate="G$1" pin="C" pad="C"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.wipprod:fs.file:vf.1inixmgnTTOqVx1GCrRDgw?version=3"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:6240560/1"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
@@ -3931,7 +3802,6 @@ Source: http://www.osram.convergy.de/</description>
 <packageinstances>
 <packageinstance name="RESC1005X40"/>
 </packageinstances>
-<metadata pins="" leadSpan="" leadSpan2="" pitch="" pitch2="" bodyLength="" bodyWidth="" height="" ipcFamily="" ipcName="" jedecFamily="" jedecVariant="" mountingType=""/>
 </package3d>
 <package3d name="RESC1608X60" urn="urn:adsk.eagle:package:16378565/2" type="model">
 <description>Chip, 1.60 X 0.82 X 0.60 mm body
@@ -3939,7 +3809,6 @@ Source: http://www.osram.convergy.de/</description>
 <packageinstances>
 <packageinstance name="RESC1608X60"/>
 </packageinstances>
-<metadata pins="" leadSpan="" leadSpan2="" pitch="" pitch2="" bodyLength="" bodyWidth="" height="" ipcFamily="" ipcName="" jedecFamily="" jedecVariant="" mountingType=""/>
 </package3d>
 <package3d name="RESC2012X65" urn="urn:adsk.eagle:package:16378559/2" type="model">
 <description>Chip, 2.00 X 1.25 X 0.65 mm body
@@ -3947,7 +3816,6 @@ Source: http://www.osram.convergy.de/</description>
 <packageinstances>
 <packageinstance name="RESC2012X65"/>
 </packageinstances>
-<metadata pins="" leadSpan="" leadSpan2="" pitch="" pitch2="" bodyLength="" bodyWidth="" height="" ipcFamily="" ipcName="" jedecFamily="" jedecVariant="" mountingType=""/>
 </package3d>
 <package3d name="RESC3216X70" urn="urn:adsk.eagle:package:16378566/2" type="model">
 <description>Chip, 3.20 X 1.60 X 0.70 mm body
@@ -3955,7 +3823,6 @@ Source: http://www.osram.convergy.de/</description>
 <packageinstances>
 <packageinstance name="RESC3216X70"/>
 </packageinstances>
-<metadata pins="" leadSpan="" leadSpan2="" pitch="" pitch2="" bodyLength="" bodyWidth="" height="" ipcFamily="" ipcName="" jedecFamily="" jedecVariant="" mountingType=""/>
 </package3d>
 <package3d name="RESC3224X71" urn="urn:adsk.eagle:package:16378563/3" type="model">
 <description>Chip, 3.20 X 2.49 X 0.71 mm body
@@ -3963,7 +3830,6 @@ Source: http://www.osram.convergy.de/</description>
 <packageinstances>
 <packageinstance name="RESC3224X71"/>
 </packageinstances>
-<metadata pins="" leadSpan="" leadSpan2="" pitch="" pitch2="" bodyLength="" bodyWidth="" height="" ipcFamily="" ipcName="" jedecFamily="" jedecVariant="" mountingType=""/>
 </package3d>
 <package3d name="RESC5025X71" urn="urn:adsk.eagle:package:16378564/2" type="model">
 <description>Chip, 5.00 X 2.50 X 0.71 mm body
@@ -3971,7 +3837,6 @@ Source: http://www.osram.convergy.de/</description>
 <packageinstances>
 <packageinstance name="RESC5025X71"/>
 </packageinstances>
-<metadata pins="" leadSpan="" leadSpan2="" pitch="" pitch2="" bodyLength="" bodyWidth="" height="" ipcFamily="" ipcName="" jedecFamily="" jedecVariant="" mountingType=""/>
 </package3d>
 <package3d name="RESC6332X71L" urn="urn:adsk.eagle:package:16378557/3" type="model">
 <description>Chip, 6.30 X 3.20 X 0.71 mm body
@@ -3979,7 +3844,6 @@ Source: http://www.osram.convergy.de/</description>
 <packageinstances>
 <packageinstance name="RESC6332X71"/>
 </packageinstances>
-<metadata pins="" leadSpan="" leadSpan2="" pitch="" pitch2="" bodyLength="" bodyWidth="" height="" ipcFamily="" ipcName="" jedecFamily="" jedecVariant="" mountingType=""/>
 </package3d>
 <package3d name="RESAD1176W63L850D250B" urn="urn:adsk.eagle:package:16378560/2" type="model">
 <description>AXIAL Resistor, 11.76 mm pitch, 8.5 mm body length, 2.5 mm body diameter
@@ -3987,7 +3851,6 @@ Source: http://www.osram.convergy.de/</description>
 <packageinstances>
 <packageinstance name="RESAD1176W63L850D250B"/>
 </packageinstances>
-<metadata pins="" leadSpan="" leadSpan2="" pitch="" pitch2="" bodyLength="" bodyWidth="" height="" ipcFamily="" ipcName="" jedecFamily="" jedecVariant="" mountingType=""/>
 </package3d>
 <package3d name="RESMELF3515" urn="urn:adsk.eagle:package:16378562/2" type="model">
 <description>MELF, 3.50 mm length, 1.52 mm diameter
@@ -3995,7 +3858,6 @@ Source: http://www.osram.convergy.de/</description>
 <packageinstances>
 <packageinstance name="RESMELF3515"/>
 </packageinstances>
-<metadata pins="" leadSpan="" leadSpan2="" pitch="" pitch2="" bodyLength="" bodyWidth="" height="" ipcFamily="" ipcName="" jedecFamily="" jedecVariant="" mountingType=""/>
 </package3d>
 <package3d name="RESMELF2014" urn="urn:adsk.eagle:package:16378558/2" type="model">
 <description>MELF, 2.00 mm length, 1.40 mm diameter
@@ -4003,7 +3865,6 @@ Source: http://www.osram.convergy.de/</description>
 <packageinstances>
 <packageinstance name="RESMELF2014"/>
 </packageinstances>
-<metadata pins="" leadSpan="" leadSpan2="" pitch="" pitch2="" bodyLength="" bodyWidth="" height="" ipcFamily="" ipcName="" jedecFamily="" jedecVariant="" mountingType=""/>
 </package3d>
 <package3d name="RESMELF5924" urn="urn:adsk.eagle:package:16378567/3" type="model">
 <description>MELF, 5.90 mm length, 2.45 mm diameter
@@ -4011,7 +3872,6 @@ Source: http://www.osram.convergy.de/</description>
 <packageinstances>
 <packageinstance name="RESMELF5924"/>
 </packageinstances>
-<metadata pins="" leadSpan="" leadSpan2="" pitch="" pitch2="" bodyLength="" bodyWidth="" height="" ipcFamily="" ipcName="" jedecFamily="" jedecVariant="" mountingType=""/>
 </package3d>
 <package3d name="RESMELF3218" urn="urn:adsk.eagle:package:16378556/2" type="model">
 <description>MELF, 3.20 mm length, 1.80 mm diameter
@@ -4019,7 +3879,6 @@ Source: http://www.osram.convergy.de/</description>
 <packageinstances>
 <packageinstance name="RESMELF3218"/>
 </packageinstances>
-<metadata pins="" leadSpan="" leadSpan2="" pitch="" pitch2="" bodyLength="" bodyWidth="" height="" ipcFamily="" ipcName="" jedecFamily="" jedecVariant="" mountingType=""/>
 </package3d>
 <package3d name="RESAD724W46L381D178B" urn="urn:adsk.eagle:package:16378561/2" type="model">
 <description>Axial Resistor, 7.24 mm pitch, 3.81 mm body length, 1.78 mm body diameter
@@ -4027,7 +3886,6 @@ Source: http://www.osram.convergy.de/</description>
 <packageinstances>
 <packageinstance name="RESAD724W46L381D178B"/>
 </packageinstances>
-<metadata pins="" leadSpan="" leadSpan2="" pitch="" pitch2="" bodyLength="" bodyWidth="" height="" ipcFamily="" ipcName="" jedecFamily="" jedecVariant="" mountingType=""/>
 </package3d>
 </packages3d>
 <symbols>
@@ -5963,7 +5821,6 @@ chip</description>
 <packageinstances>
 <packageinstance name="C0402"/>
 </packageinstances>
-<metadata pins="" leadSpan="" leadSpan2="" pitch="" pitch2="" bodyLength="" bodyWidth="" height="" ipcFamily="" ipcName="" jedecFamily="" jedecVariant="" mountingType=""/>
 </package3d>
 <package3d name="C0504" urn="urn:adsk.eagle:package:6240339/1" type="box" library_version="2">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;p&gt;
@@ -5971,7 +5828,6 @@ chip</description>
 <packageinstances>
 <packageinstance name="C0504"/>
 </packageinstances>
-<metadata pins="" leadSpan="" leadSpan2="" pitch="" pitch2="" bodyLength="" bodyWidth="" height="" ipcFamily="" ipcName="" jedecFamily="" jedecVariant="" mountingType=""/>
 </package3d>
 <package3d name="C0603" urn="urn:adsk.eagle:package:6240338/1" type="box" library_version="2">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;p&gt;
@@ -5979,7 +5835,6 @@ chip</description>
 <packageinstances>
 <packageinstance name="C0603"/>
 </packageinstances>
-<metadata pins="" leadSpan="" leadSpan2="" pitch="" pitch2="" bodyLength="" bodyWidth="" height="" ipcFamily="" ipcName="" jedecFamily="" jedecVariant="" mountingType=""/>
 </package3d>
 <package3d name="C0805" urn="urn:adsk.eagle:package:6240337/1" type="box" library_version="2">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;p&gt;
@@ -5987,7 +5842,6 @@ chip</description>
 <packageinstances>
 <packageinstance name="C0805"/>
 </packageinstances>
-<metadata pins="" leadSpan="" leadSpan2="" pitch="" pitch2="" bodyLength="" bodyWidth="" height="" ipcFamily="" ipcName="" jedecFamily="" jedecVariant="" mountingType=""/>
 </package3d>
 <package3d name="C1005" urn="urn:adsk.eagle:package:6240336/1" type="box" library_version="2">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;p&gt;
@@ -5995,7 +5849,6 @@ chip</description>
 <packageinstances>
 <packageinstance name="C1005"/>
 </packageinstances>
-<metadata pins="" leadSpan="" leadSpan2="" pitch="" pitch2="" bodyLength="" bodyWidth="" height="" ipcFamily="" ipcName="" jedecFamily="" jedecVariant="" mountingType=""/>
 </package3d>
 <package3d name="C1206" urn="urn:adsk.eagle:package:6240335/1" type="box" library_version="2">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;p&gt;
@@ -6003,7 +5856,6 @@ chip</description>
 <packageinstances>
 <packageinstance name="C1206"/>
 </packageinstances>
-<metadata pins="" leadSpan="" leadSpan2="" pitch="" pitch2="" bodyLength="" bodyWidth="" height="" ipcFamily="" ipcName="" jedecFamily="" jedecVariant="" mountingType=""/>
 </package3d>
 <package3d name="C1210" urn="urn:adsk.eagle:package:6240334/1" type="box" library_version="2">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;p&gt;
@@ -6011,7 +5863,6 @@ chip</description>
 <packageinstances>
 <packageinstance name="C1210"/>
 </packageinstances>
-<metadata pins="" leadSpan="" leadSpan2="" pitch="" pitch2="" bodyLength="" bodyWidth="" height="" ipcFamily="" ipcName="" jedecFamily="" jedecVariant="" mountingType=""/>
 </package3d>
 <package3d name="C1310" urn="urn:adsk.eagle:package:6240333/1" type="box" library_version="2">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;p&gt;
@@ -6019,7 +5870,6 @@ chip</description>
 <packageinstances>
 <packageinstance name="C1310"/>
 </packageinstances>
-<metadata pins="" leadSpan="" leadSpan2="" pitch="" pitch2="" bodyLength="" bodyWidth="" height="" ipcFamily="" ipcName="" jedecFamily="" jedecVariant="" mountingType=""/>
 </package3d>
 <package3d name="C1608" urn="urn:adsk.eagle:package:6240332/1" type="box" library_version="2">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;p&gt;
@@ -6027,7 +5877,6 @@ chip</description>
 <packageinstances>
 <packageinstance name="C1608"/>
 </packageinstances>
-<metadata pins="" leadSpan="" leadSpan2="" pitch="" pitch2="" bodyLength="" bodyWidth="" height="" ipcFamily="" ipcName="" jedecFamily="" jedecVariant="" mountingType=""/>
 </package3d>
 <package3d name="C1812" urn="urn:adsk.eagle:package:6240331/1" type="box" library_version="2">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;p&gt;
@@ -6035,7 +5884,6 @@ chip</description>
 <packageinstances>
 <packageinstance name="C1812"/>
 </packageinstances>
-<metadata pins="" leadSpan="" leadSpan2="" pitch="" pitch2="" bodyLength="" bodyWidth="" height="" ipcFamily="" ipcName="" jedecFamily="" jedecVariant="" mountingType=""/>
 </package3d>
 <package3d name="C1825" urn="urn:adsk.eagle:package:6240330/1" type="box" library_version="2">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;p&gt;
@@ -6043,7 +5891,6 @@ chip</description>
 <packageinstances>
 <packageinstance name="C1825"/>
 </packageinstances>
-<metadata pins="" leadSpan="" leadSpan2="" pitch="" pitch2="" bodyLength="" bodyWidth="" height="" ipcFamily="" ipcName="" jedecFamily="" jedecVariant="" mountingType=""/>
 </package3d>
 <package3d name="C2012" urn="urn:adsk.eagle:package:6240329/1" type="box" library_version="2">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;p&gt;
@@ -6051,7 +5898,6 @@ chip</description>
 <packageinstances>
 <packageinstance name="C2012"/>
 </packageinstances>
-<metadata pins="" leadSpan="" leadSpan2="" pitch="" pitch2="" bodyLength="" bodyWidth="" height="" ipcFamily="" ipcName="" jedecFamily="" jedecVariant="" mountingType=""/>
 </package3d>
 <package3d name="C3216" urn="urn:adsk.eagle:package:6240328/1" type="box" library_version="2">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;p&gt;
@@ -6059,7 +5905,6 @@ chip</description>
 <packageinstances>
 <packageinstance name="C3216"/>
 </packageinstances>
-<metadata pins="" leadSpan="" leadSpan2="" pitch="" pitch2="" bodyLength="" bodyWidth="" height="" ipcFamily="" ipcName="" jedecFamily="" jedecVariant="" mountingType=""/>
 </package3d>
 <package3d name="C3225" urn="urn:adsk.eagle:package:6240327/1" type="box" library_version="2">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;p&gt;
@@ -6067,7 +5912,6 @@ chip</description>
 <packageinstances>
 <packageinstance name="C3225"/>
 </packageinstances>
-<metadata pins="" leadSpan="" leadSpan2="" pitch="" pitch2="" bodyLength="" bodyWidth="" height="" ipcFamily="" ipcName="" jedecFamily="" jedecVariant="" mountingType=""/>
 </package3d>
 <package3d name="C4532" urn="urn:adsk.eagle:package:6240326/1" type="box" library_version="2">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;p&gt;
@@ -6075,7 +5919,6 @@ chip</description>
 <packageinstances>
 <packageinstance name="C4532"/>
 </packageinstances>
-<metadata pins="" leadSpan="" leadSpan2="" pitch="" pitch2="" bodyLength="" bodyWidth="" height="" ipcFamily="" ipcName="" jedecFamily="" jedecVariant="" mountingType=""/>
 </package3d>
 <package3d name="C4564" urn="urn:adsk.eagle:package:6240325/1" type="box" library_version="2">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;p&gt;
@@ -6083,7 +5926,6 @@ chip</description>
 <packageinstances>
 <packageinstance name="C4564"/>
 </packageinstances>
-<metadata pins="" leadSpan="" leadSpan2="" pitch="" pitch2="" bodyLength="" bodyWidth="" height="" ipcFamily="" ipcName="" jedecFamily="" jedecVariant="" mountingType=""/>
 </package3d>
 <package3d name="C025-024X044" urn="urn:adsk.eagle:package:6240324/1" type="box" library_version="2">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;p&gt;
@@ -6091,7 +5933,6 @@ grid 2.5 mm, outline 2.4 x 4.4 mm</description>
 <packageinstances>
 <packageinstance name="C025-024X044"/>
 </packageinstances>
-<metadata pins="" leadSpan="" leadSpan2="" pitch="" pitch2="" bodyLength="" bodyWidth="" height="" ipcFamily="" ipcName="" jedecFamily="" jedecVariant="" mountingType=""/>
 </package3d>
 <package3d name="C025-025X050" urn="urn:adsk.eagle:package:6240323/1" type="box" library_version="2">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;p&gt;
@@ -6099,7 +5940,6 @@ grid 2.5 mm, outline 2.5 x 5 mm</description>
 <packageinstances>
 <packageinstance name="C025-025X050"/>
 </packageinstances>
-<metadata pins="" leadSpan="" leadSpan2="" pitch="" pitch2="" bodyLength="" bodyWidth="" height="" ipcFamily="" ipcName="" jedecFamily="" jedecVariant="" mountingType=""/>
 </package3d>
 <package3d name="C025-030X050" urn="urn:adsk.eagle:package:6240322/1" type="box" library_version="2">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;p&gt;
@@ -6107,7 +5947,6 @@ grid 2.5 mm, outline 3 x 5 mm</description>
 <packageinstances>
 <packageinstance name="C025-030X050"/>
 </packageinstances>
-<metadata pins="" leadSpan="" leadSpan2="" pitch="" pitch2="" bodyLength="" bodyWidth="" height="" ipcFamily="" ipcName="" jedecFamily="" jedecVariant="" mountingType=""/>
 </package3d>
 <package3d name="C025-040X050" urn="urn:adsk.eagle:package:6240321/1" type="box" library_version="2">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;p&gt;
@@ -6115,7 +5954,6 @@ grid 2.5 mm, outline 4 x 5 mm</description>
 <packageinstances>
 <packageinstance name="C025-040X050"/>
 </packageinstances>
-<metadata pins="" leadSpan="" leadSpan2="" pitch="" pitch2="" bodyLength="" bodyWidth="" height="" ipcFamily="" ipcName="" jedecFamily="" jedecVariant="" mountingType=""/>
 </package3d>
 <package3d name="C025-050X050" urn="urn:adsk.eagle:package:6240320/1" type="box" library_version="2">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;p&gt;
@@ -6123,7 +5961,6 @@ grid 2.5 mm, outline 5 x 5 mm</description>
 <packageinstances>
 <packageinstance name="C025-050X050"/>
 </packageinstances>
-<metadata pins="" leadSpan="" leadSpan2="" pitch="" pitch2="" bodyLength="" bodyWidth="" height="" ipcFamily="" ipcName="" jedecFamily="" jedecVariant="" mountingType=""/>
 </package3d>
 <package3d name="C025-060X050" urn="urn:adsk.eagle:package:6240350/1" type="box" library_version="2">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;p&gt;
@@ -6131,7 +5968,6 @@ grid 2.5 mm, outline 6 x 5 mm</description>
 <packageinstances>
 <packageinstance name="C025-060X050"/>
 </packageinstances>
-<metadata pins="" leadSpan="" leadSpan2="" pitch="" pitch2="" bodyLength="" bodyWidth="" height="" ipcFamily="" ipcName="" jedecFamily="" jedecVariant="" mountingType=""/>
 </package3d>
 <package3d name="C025_050-024X070" urn="urn:adsk.eagle:package:6240351/1" type="box" library_version="2">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;p&gt;
@@ -6139,7 +5975,6 @@ grid 2.5 mm + 5 mm, outline 2.4 x 7 mm</description>
 <packageinstances>
 <packageinstance name="C025_050-024X070"/>
 </packageinstances>
-<metadata pins="" leadSpan="" leadSpan2="" pitch="" pitch2="" bodyLength="" bodyWidth="" height="" ipcFamily="" ipcName="" jedecFamily="" jedecVariant="" mountingType=""/>
 </package3d>
 <package3d name="C025_050-025X075" urn="urn:adsk.eagle:package:6240352/1" type="box" library_version="2">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;p&gt;
@@ -6147,7 +5982,6 @@ grid 2.5 + 5 mm, outline 2.5 x 7.5 mm</description>
 <packageinstances>
 <packageinstance name="C025_050-025X075"/>
 </packageinstances>
-<metadata pins="" leadSpan="" leadSpan2="" pitch="" pitch2="" bodyLength="" bodyWidth="" height="" ipcFamily="" ipcName="" jedecFamily="" jedecVariant="" mountingType=""/>
 </package3d>
 <package3d name="C025_050-035X075" urn="urn:adsk.eagle:package:6240353/1" type="box" library_version="2">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;p&gt;
@@ -6155,7 +5989,6 @@ grid 2.5 + 5 mm, outline 3.5 x 7.5 mm</description>
 <packageinstances>
 <packageinstance name="C025_050-035X075"/>
 </packageinstances>
-<metadata pins="" leadSpan="" leadSpan2="" pitch="" pitch2="" bodyLength="" bodyWidth="" height="" ipcFamily="" ipcName="" jedecFamily="" jedecVariant="" mountingType=""/>
 </package3d>
 <package3d name="C025_050-045X075" urn="urn:adsk.eagle:package:6240354/1" type="box" library_version="2">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;p&gt;
@@ -6163,7 +5996,6 @@ grid 2.5 + 5 mm, outline 4.5 x 7.5 mm</description>
 <packageinstances>
 <packageinstance name="C025_050-045X075"/>
 </packageinstances>
-<metadata pins="" leadSpan="" leadSpan2="" pitch="" pitch2="" bodyLength="" bodyWidth="" height="" ipcFamily="" ipcName="" jedecFamily="" jedecVariant="" mountingType=""/>
 </package3d>
 <package3d name="C025_050-055X075" urn="urn:adsk.eagle:package:6240355/1" type="box" library_version="2">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;p&gt;
@@ -6171,7 +6003,6 @@ grid 2.5 + 5 mm, outline 5.5 x 7.5 mm</description>
 <packageinstances>
 <packageinstance name="C025_050-055X075"/>
 </packageinstances>
-<metadata pins="" leadSpan="" leadSpan2="" pitch="" pitch2="" bodyLength="" bodyWidth="" height="" ipcFamily="" ipcName="" jedecFamily="" jedecVariant="" mountingType=""/>
 </package3d>
 <package3d name="C050-024X044" urn="urn:adsk.eagle:package:6240356/1" type="box" library_version="2">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;p&gt;
@@ -6179,7 +6010,6 @@ grid 5 mm, outline 2.4 x 4.4 mm</description>
 <packageinstances>
 <packageinstance name="C050-024X044"/>
 </packageinstances>
-<metadata pins="" leadSpan="" leadSpan2="" pitch="" pitch2="" bodyLength="" bodyWidth="" height="" ipcFamily="" ipcName="" jedecFamily="" jedecVariant="" mountingType=""/>
 </package3d>
 <package3d name="C050-025X075" urn="urn:adsk.eagle:package:6240357/1" type="box" library_version="2">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;p&gt;
@@ -6187,7 +6017,6 @@ grid 5 mm, outline 2.5 x 7.5 mm</description>
 <packageinstances>
 <packageinstance name="C050-025X075"/>
 </packageinstances>
-<metadata pins="" leadSpan="" leadSpan2="" pitch="" pitch2="" bodyLength="" bodyWidth="" height="" ipcFamily="" ipcName="" jedecFamily="" jedecVariant="" mountingType=""/>
 </package3d>
 <package3d name="C050-045X075" urn="urn:adsk.eagle:package:6240358/1" type="box" library_version="2">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;p&gt;
@@ -6195,7 +6024,6 @@ grid 5 mm, outline 4.5 x 7.5 mm</description>
 <packageinstances>
 <packageinstance name="C050-045X075"/>
 </packageinstances>
-<metadata pins="" leadSpan="" leadSpan2="" pitch="" pitch2="" bodyLength="" bodyWidth="" height="" ipcFamily="" ipcName="" jedecFamily="" jedecVariant="" mountingType=""/>
 </package3d>
 <package3d name="C050-030X075" urn="urn:adsk.eagle:package:6240359/1" type="box" library_version="2">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;p&gt;
@@ -6203,7 +6031,6 @@ grid 5 mm, outline 3 x 7.5 mm</description>
 <packageinstances>
 <packageinstance name="C050-030X075"/>
 </packageinstances>
-<metadata pins="" leadSpan="" leadSpan2="" pitch="" pitch2="" bodyLength="" bodyWidth="" height="" ipcFamily="" ipcName="" jedecFamily="" jedecVariant="" mountingType=""/>
 </package3d>
 <package3d name="C050-050X075" urn="urn:adsk.eagle:package:6240360/1" type="box" library_version="2">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;p&gt;
@@ -6211,7 +6038,6 @@ grid 5 mm, outline 5 x 7.5 mm</description>
 <packageinstances>
 <packageinstance name="C050-050X075"/>
 </packageinstances>
-<metadata pins="" leadSpan="" leadSpan2="" pitch="" pitch2="" bodyLength="" bodyWidth="" height="" ipcFamily="" ipcName="" jedecFamily="" jedecVariant="" mountingType=""/>
 </package3d>
 <package3d name="C050-055X075" urn="urn:adsk.eagle:package:6240361/1" type="box" library_version="2">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;p&gt;
@@ -6219,7 +6045,6 @@ grid 5 mm, outline 5.5 x 7.5 mm</description>
 <packageinstances>
 <packageinstance name="C050-055X075"/>
 </packageinstances>
-<metadata pins="" leadSpan="" leadSpan2="" pitch="" pitch2="" bodyLength="" bodyWidth="" height="" ipcFamily="" ipcName="" jedecFamily="" jedecVariant="" mountingType=""/>
 </package3d>
 <package3d name="C050-075X075" urn="urn:adsk.eagle:package:6240362/1" type="box" library_version="2">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;p&gt;
@@ -6227,7 +6052,6 @@ grid 5 mm, outline 7.5 x 7.5 mm</description>
 <packageinstances>
 <packageinstance name="C050-075X075"/>
 </packageinstances>
-<metadata pins="" leadSpan="" leadSpan2="" pitch="" pitch2="" bodyLength="" bodyWidth="" height="" ipcFamily="" ipcName="" jedecFamily="" jedecVariant="" mountingType=""/>
 </package3d>
 <package3d name="C050H075X075" urn="urn:adsk.eagle:package:6240363/1" type="box" library_version="2">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;p&gt;
@@ -6235,7 +6059,6 @@ Horizontal, grid 5 mm, outline 7.5 x 7.5 mm</description>
 <packageinstances>
 <packageinstance name="C050H075X075"/>
 </packageinstances>
-<metadata pins="" leadSpan="" leadSpan2="" pitch="" pitch2="" bodyLength="" bodyWidth="" height="" ipcFamily="" ipcName="" jedecFamily="" jedecVariant="" mountingType=""/>
 </package3d>
 <package3d name="C075-032X103" urn="urn:adsk.eagle:package:6240364/1" type="box" library_version="2">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;p&gt;
@@ -6243,7 +6066,6 @@ grid 7.5 mm, outline 3.2 x 10.3 mm</description>
 <packageinstances>
 <packageinstance name="C075-032X103"/>
 </packageinstances>
-<metadata pins="" leadSpan="" leadSpan2="" pitch="" pitch2="" bodyLength="" bodyWidth="" height="" ipcFamily="" ipcName="" jedecFamily="" jedecVariant="" mountingType=""/>
 </package3d>
 <package3d name="C075-042X103" urn="urn:adsk.eagle:package:6240365/1" type="box" library_version="2">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;p&gt;
@@ -6251,7 +6073,6 @@ grid 7.5 mm, outline 4.2 x 10.3 mm</description>
 <packageinstances>
 <packageinstance name="C075-042X103"/>
 </packageinstances>
-<metadata pins="" leadSpan="" leadSpan2="" pitch="" pitch2="" bodyLength="" bodyWidth="" height="" ipcFamily="" ipcName="" jedecFamily="" jedecVariant="" mountingType=""/>
 </package3d>
 <package3d name="C075-052X106" urn="urn:adsk.eagle:package:6240366/1" type="box" library_version="2">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;p&gt;
@@ -6259,7 +6080,6 @@ grid 7.5 mm, outline 5.2 x 10.6 mm</description>
 <packageinstances>
 <packageinstance name="C075-052X106"/>
 </packageinstances>
-<metadata pins="" leadSpan="" leadSpan2="" pitch="" pitch2="" bodyLength="" bodyWidth="" height="" ipcFamily="" ipcName="" jedecFamily="" jedecVariant="" mountingType=""/>
 </package3d>
 <package3d name="C102-043X133" urn="urn:adsk.eagle:package:6240367/1" type="box" library_version="2">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;p&gt;
@@ -6267,7 +6087,6 @@ grid 10.2 mm, outline 4.3 x 13.3 mm</description>
 <packageinstances>
 <packageinstance name="C102-043X133"/>
 </packageinstances>
-<metadata pins="" leadSpan="" leadSpan2="" pitch="" pitch2="" bodyLength="" bodyWidth="" height="" ipcFamily="" ipcName="" jedecFamily="" jedecVariant="" mountingType=""/>
 </package3d>
 <package3d name="C102-054X133" urn="urn:adsk.eagle:package:6240368/1" type="box" library_version="2">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;p&gt;
@@ -6275,7 +6094,6 @@ grid 10.2 mm, outline 5.4 x 13.3 mm</description>
 <packageinstances>
 <packageinstance name="C102-054X133"/>
 </packageinstances>
-<metadata pins="" leadSpan="" leadSpan2="" pitch="" pitch2="" bodyLength="" bodyWidth="" height="" ipcFamily="" ipcName="" jedecFamily="" jedecVariant="" mountingType=""/>
 </package3d>
 <package3d name="C102-064X133" urn="urn:adsk.eagle:package:6240369/1" type="box" library_version="2">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;p&gt;
@@ -6283,7 +6101,6 @@ grid 10.2 mm, outline 6.4 x 13.3 mm</description>
 <packageinstances>
 <packageinstance name="C102-064X133"/>
 </packageinstances>
-<metadata pins="" leadSpan="" leadSpan2="" pitch="" pitch2="" bodyLength="" bodyWidth="" height="" ipcFamily="" ipcName="" jedecFamily="" jedecVariant="" mountingType=""/>
 </package3d>
 <package3d name="C102_152-062X184" urn="urn:adsk.eagle:package:6240370/1" type="box" library_version="2">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;p&gt;
@@ -6291,7 +6108,6 @@ grid 10.2 mm + 15.2 mm, outline 6.2 x 18.4 mm</description>
 <packageinstances>
 <packageinstance name="C102_152-062X184"/>
 </packageinstances>
-<metadata pins="" leadSpan="" leadSpan2="" pitch="" pitch2="" bodyLength="" bodyWidth="" height="" ipcFamily="" ipcName="" jedecFamily="" jedecVariant="" mountingType=""/>
 </package3d>
 <package3d name="C150-054X183" urn="urn:adsk.eagle:package:6240371/1" type="box" library_version="2">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;p&gt;
@@ -6299,7 +6115,6 @@ grid 15 mm, outline 5.4 x 18.3 mm</description>
 <packageinstances>
 <packageinstance name="C150-054X183"/>
 </packageinstances>
-<metadata pins="" leadSpan="" leadSpan2="" pitch="" pitch2="" bodyLength="" bodyWidth="" height="" ipcFamily="" ipcName="" jedecFamily="" jedecVariant="" mountingType=""/>
 </package3d>
 <package3d name="C150-064X183" urn="urn:adsk.eagle:package:6240372/1" type="box" library_version="2">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;p&gt;
@@ -6307,7 +6122,6 @@ grid 15 mm, outline 6.4 x 18.3 mm</description>
 <packageinstances>
 <packageinstance name="C150-064X183"/>
 </packageinstances>
-<metadata pins="" leadSpan="" leadSpan2="" pitch="" pitch2="" bodyLength="" bodyWidth="" height="" ipcFamily="" ipcName="" jedecFamily="" jedecVariant="" mountingType=""/>
 </package3d>
 <package3d name="C150-072X183" urn="urn:adsk.eagle:package:6240373/1" type="box" library_version="2">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;p&gt;
@@ -6315,7 +6129,6 @@ grid 15 mm, outline 7.2 x 18.3 mm</description>
 <packageinstances>
 <packageinstance name="C150-072X183"/>
 </packageinstances>
-<metadata pins="" leadSpan="" leadSpan2="" pitch="" pitch2="" bodyLength="" bodyWidth="" height="" ipcFamily="" ipcName="" jedecFamily="" jedecVariant="" mountingType=""/>
 </package3d>
 <package3d name="C150-084X183" urn="urn:adsk.eagle:package:6240374/1" type="box" library_version="2">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;p&gt;
@@ -6323,7 +6136,6 @@ grid 15 mm, outline 8.4 x 18.3 mm</description>
 <packageinstances>
 <packageinstance name="C150-084X183"/>
 </packageinstances>
-<metadata pins="" leadSpan="" leadSpan2="" pitch="" pitch2="" bodyLength="" bodyWidth="" height="" ipcFamily="" ipcName="" jedecFamily="" jedecVariant="" mountingType=""/>
 </package3d>
 <package3d name="C150-091X182" urn="urn:adsk.eagle:package:6240375/1" type="box" library_version="2">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;p&gt;
@@ -6331,7 +6143,6 @@ grid 15 mm, outline 9.1 x 18.2 mm</description>
 <packageinstances>
 <packageinstance name="C150-091X182"/>
 </packageinstances>
-<metadata pins="" leadSpan="" leadSpan2="" pitch="" pitch2="" bodyLength="" bodyWidth="" height="" ipcFamily="" ipcName="" jedecFamily="" jedecVariant="" mountingType=""/>
 </package3d>
 <package3d name="C225-062X268" urn="urn:adsk.eagle:package:6240376/1" type="box" library_version="2">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;p&gt;
@@ -6339,7 +6150,6 @@ grid 22.5 mm, outline 6.2 x 26.8 mm</description>
 <packageinstances>
 <packageinstance name="C225-062X268"/>
 </packageinstances>
-<metadata pins="" leadSpan="" leadSpan2="" pitch="" pitch2="" bodyLength="" bodyWidth="" height="" ipcFamily="" ipcName="" jedecFamily="" jedecVariant="" mountingType=""/>
 </package3d>
 <package3d name="C225-074X268" urn="urn:adsk.eagle:package:6240377/1" type="box" library_version="2">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;p&gt;
@@ -6347,7 +6157,6 @@ grid 22.5 mm, outline 7.4 x 26.8 mm</description>
 <packageinstances>
 <packageinstance name="C225-074X268"/>
 </packageinstances>
-<metadata pins="" leadSpan="" leadSpan2="" pitch="" pitch2="" bodyLength="" bodyWidth="" height="" ipcFamily="" ipcName="" jedecFamily="" jedecVariant="" mountingType=""/>
 </package3d>
 <package3d name="C225-087X268" urn="urn:adsk.eagle:package:6240378/1" type="box" library_version="2">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;p&gt;
@@ -6355,7 +6164,6 @@ grid 22.5 mm, outline 8.7 x 26.8 mm</description>
 <packageinstances>
 <packageinstance name="C225-087X268"/>
 </packageinstances>
-<metadata pins="" leadSpan="" leadSpan2="" pitch="" pitch2="" bodyLength="" bodyWidth="" height="" ipcFamily="" ipcName="" jedecFamily="" jedecVariant="" mountingType=""/>
 </package3d>
 <package3d name="C225-108X268" urn="urn:adsk.eagle:package:6240379/1" type="box" library_version="2">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;p&gt;
@@ -6363,7 +6171,6 @@ grid 22.5 mm, outline 10.8 x 26.8 mm</description>
 <packageinstances>
 <packageinstance name="C225-108X268"/>
 </packageinstances>
-<metadata pins="" leadSpan="" leadSpan2="" pitch="" pitch2="" bodyLength="" bodyWidth="" height="" ipcFamily="" ipcName="" jedecFamily="" jedecVariant="" mountingType=""/>
 </package3d>
 <package3d name="C225-113X268" urn="urn:adsk.eagle:package:6240380/1" type="box" library_version="2">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;p&gt;
@@ -6371,7 +6178,6 @@ grid 22.5 mm, outline 11.3 x 26.8 mm</description>
 <packageinstances>
 <packageinstance name="C225-113X268"/>
 </packageinstances>
-<metadata pins="" leadSpan="" leadSpan2="" pitch="" pitch2="" bodyLength="" bodyWidth="" height="" ipcFamily="" ipcName="" jedecFamily="" jedecVariant="" mountingType=""/>
 </package3d>
 <package3d name="C275-093X316" urn="urn:adsk.eagle:package:6240381/1" type="box" library_version="2">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;p&gt;
@@ -6379,7 +6185,6 @@ grid 27.5 mm, outline 9.3 x 31.6 mm</description>
 <packageinstances>
 <packageinstance name="C275-093X316"/>
 </packageinstances>
-<metadata pins="" leadSpan="" leadSpan2="" pitch="" pitch2="" bodyLength="" bodyWidth="" height="" ipcFamily="" ipcName="" jedecFamily="" jedecVariant="" mountingType=""/>
 </package3d>
 <package3d name="C275-113X316" urn="urn:adsk.eagle:package:6240382/1" type="box" library_version="2">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;p&gt;
@@ -6387,7 +6192,6 @@ grid 27.5 mm, outline 11.3 x 31.6 mm</description>
 <packageinstances>
 <packageinstance name="C275-113X316"/>
 </packageinstances>
-<metadata pins="" leadSpan="" leadSpan2="" pitch="" pitch2="" bodyLength="" bodyWidth="" height="" ipcFamily="" ipcName="" jedecFamily="" jedecVariant="" mountingType=""/>
 </package3d>
 <package3d name="C275-134X316" urn="urn:adsk.eagle:package:6240383/1" type="box" library_version="2">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;p&gt;
@@ -6395,7 +6199,6 @@ grid 27.5 mm, outline 13.4 x 31.6 mm</description>
 <packageinstances>
 <packageinstance name="C275-134X316"/>
 </packageinstances>
-<metadata pins="" leadSpan="" leadSpan2="" pitch="" pitch2="" bodyLength="" bodyWidth="" height="" ipcFamily="" ipcName="" jedecFamily="" jedecVariant="" mountingType=""/>
 </package3d>
 <package3d name="C275-205X316" urn="urn:adsk.eagle:package:6240384/1" type="box" library_version="2">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;p&gt;
@@ -6403,7 +6206,6 @@ grid 27.5 mm, outline 20.5 x 31.6 mm</description>
 <packageinstances>
 <packageinstance name="C275-205X316"/>
 </packageinstances>
-<metadata pins="" leadSpan="" leadSpan2="" pitch="" pitch2="" bodyLength="" bodyWidth="" height="" ipcFamily="" ipcName="" jedecFamily="" jedecVariant="" mountingType=""/>
 </package3d>
 <package3d name="C325-137X374" urn="urn:adsk.eagle:package:6240385/1" type="box" library_version="2">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;p&gt;
@@ -6411,7 +6213,6 @@ grid 32.5 mm, outline 13.7 x 37.4 mm</description>
 <packageinstances>
 <packageinstance name="C325-137X374"/>
 </packageinstances>
-<metadata pins="" leadSpan="" leadSpan2="" pitch="" pitch2="" bodyLength="" bodyWidth="" height="" ipcFamily="" ipcName="" jedecFamily="" jedecVariant="" mountingType=""/>
 </package3d>
 <package3d name="C325-162X374" urn="urn:adsk.eagle:package:6240386/1" type="box" library_version="2">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;p&gt;
@@ -6419,7 +6220,6 @@ grid 32.5 mm, outline 16.2 x 37.4 mm</description>
 <packageinstances>
 <packageinstance name="C325-162X374"/>
 </packageinstances>
-<metadata pins="" leadSpan="" leadSpan2="" pitch="" pitch2="" bodyLength="" bodyWidth="" height="" ipcFamily="" ipcName="" jedecFamily="" jedecVariant="" mountingType=""/>
 </package3d>
 <package3d name="C325-182X374" urn="urn:adsk.eagle:package:6240387/1" type="box" library_version="2">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;p&gt;
@@ -6427,7 +6227,6 @@ grid 32.5 mm, outline 18.2 x 37.4 mm</description>
 <packageinstances>
 <packageinstance name="C325-182X374"/>
 </packageinstances>
-<metadata pins="" leadSpan="" leadSpan2="" pitch="" pitch2="" bodyLength="" bodyWidth="" height="" ipcFamily="" ipcName="" jedecFamily="" jedecVariant="" mountingType=""/>
 </package3d>
 <package3d name="C375-192X418" urn="urn:adsk.eagle:package:6240388/1" type="box" library_version="2">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;p&gt;
@@ -6435,7 +6234,6 @@ grid 37.5 mm, outline 19.2 x 41.8 mm</description>
 <packageinstances>
 <packageinstance name="C375-192X418"/>
 </packageinstances>
-<metadata pins="" leadSpan="" leadSpan2="" pitch="" pitch2="" bodyLength="" bodyWidth="" height="" ipcFamily="" ipcName="" jedecFamily="" jedecVariant="" mountingType=""/>
 </package3d>
 <package3d name="C375-203X418" urn="urn:adsk.eagle:package:6240389/1" type="box" library_version="2">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;p&gt;
@@ -6443,7 +6241,6 @@ grid 37.5 mm, outline 20.3 x 41.8 mm</description>
 <packageinstances>
 <packageinstance name="C375-203X418"/>
 </packageinstances>
-<metadata pins="" leadSpan="" leadSpan2="" pitch="" pitch2="" bodyLength="" bodyWidth="" height="" ipcFamily="" ipcName="" jedecFamily="" jedecVariant="" mountingType=""/>
 </package3d>
 <package3d name="C050-035X075" urn="urn:adsk.eagle:package:6240390/1" type="box" library_version="2">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;p&gt;
@@ -6451,7 +6248,6 @@ grid 5 mm, outline 3.5 x 7.5 mm</description>
 <packageinstances>
 <packageinstance name="C050-035X075"/>
 </packageinstances>
-<metadata pins="" leadSpan="" leadSpan2="" pitch="" pitch2="" bodyLength="" bodyWidth="" height="" ipcFamily="" ipcName="" jedecFamily="" jedecVariant="" mountingType=""/>
 </package3d>
 <package3d name="C375-155X418" urn="urn:adsk.eagle:package:6240391/1" type="box" library_version="2">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;p&gt;
@@ -6459,7 +6255,6 @@ grid 37.5 mm, outline 15.5 x 41.8 mm</description>
 <packageinstances>
 <packageinstance name="C375-155X418"/>
 </packageinstances>
-<metadata pins="" leadSpan="" leadSpan2="" pitch="" pitch2="" bodyLength="" bodyWidth="" height="" ipcFamily="" ipcName="" jedecFamily="" jedecVariant="" mountingType=""/>
 </package3d>
 <package3d name="C075-063X106" urn="urn:adsk.eagle:package:6240392/1" type="box" library_version="2">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;p&gt;
@@ -6467,7 +6262,6 @@ grid 7.5 mm, outline 6.3 x 10.6 mm</description>
 <packageinstances>
 <packageinstance name="C075-063X106"/>
 </packageinstances>
-<metadata pins="" leadSpan="" leadSpan2="" pitch="" pitch2="" bodyLength="" bodyWidth="" height="" ipcFamily="" ipcName="" jedecFamily="" jedecVariant="" mountingType=""/>
 </package3d>
 <package3d name="C275-154X316" urn="urn:adsk.eagle:package:6240393/1" type="box" library_version="2">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;p&gt;
@@ -6475,7 +6269,6 @@ grid 27.5 mm, outline 15.4 x 31.6 mm</description>
 <packageinstances>
 <packageinstance name="C275-154X316"/>
 </packageinstances>
-<metadata pins="" leadSpan="" leadSpan2="" pitch="" pitch2="" bodyLength="" bodyWidth="" height="" ipcFamily="" ipcName="" jedecFamily="" jedecVariant="" mountingType=""/>
 </package3d>
 <package3d name="C275-173X316" urn="urn:adsk.eagle:package:6240394/1" type="box" library_version="2">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;p&gt;
@@ -6483,7 +6276,6 @@ grid 27.5 mm, outline 17.3 x 31.6 mm</description>
 <packageinstances>
 <packageinstance name="C275-173X316"/>
 </packageinstances>
-<metadata pins="" leadSpan="" leadSpan2="" pitch="" pitch2="" bodyLength="" bodyWidth="" height="" ipcFamily="" ipcName="" jedecFamily="" jedecVariant="" mountingType=""/>
 </package3d>
 <package3d name="C0402K" urn="urn:adsk.eagle:package:6240395/1" type="box" library_version="2">
 <description>&lt;b&gt;Ceramic Chip Capacitor KEMET 0204 Reflow solder&lt;/b&gt;&lt;p&gt;
@@ -6491,7 +6283,6 @@ Metric Code Size 1005</description>
 <packageinstances>
 <packageinstance name="C0402K"/>
 </packageinstances>
-<metadata pins="" leadSpan="" leadSpan2="" pitch="" pitch2="" bodyLength="" bodyWidth="" height="" ipcFamily="" ipcName="" jedecFamily="" jedecVariant="" mountingType=""/>
 </package3d>
 <package3d name="C0603K" urn="urn:adsk.eagle:package:6240396/1" type="box" library_version="2">
 <description>&lt;b&gt;Ceramic Chip Capacitor KEMET 0603 Reflow solder&lt;/b&gt;&lt;p&gt;
@@ -6499,7 +6290,6 @@ Metric Code Size 1608</description>
 <packageinstances>
 <packageinstance name="C0603K"/>
 </packageinstances>
-<metadata pins="" leadSpan="" leadSpan2="" pitch="" pitch2="" bodyLength="" bodyWidth="" height="" ipcFamily="" ipcName="" jedecFamily="" jedecVariant="" mountingType=""/>
 </package3d>
 <package3d name="C0805K" urn="urn:adsk.eagle:package:6240397/1" type="box" library_version="2">
 <description>&lt;b&gt;Ceramic Chip Capacitor KEMET 0805 Reflow solder&lt;/b&gt;&lt;p&gt;
@@ -6507,7 +6297,6 @@ Metric Code Size 2012</description>
 <packageinstances>
 <packageinstance name="C0805K"/>
 </packageinstances>
-<metadata pins="" leadSpan="" leadSpan2="" pitch="" pitch2="" bodyLength="" bodyWidth="" height="" ipcFamily="" ipcName="" jedecFamily="" jedecVariant="" mountingType=""/>
 </package3d>
 <package3d name="C1206K" urn="urn:adsk.eagle:package:6240398/1" type="box" library_version="2">
 <description>&lt;b&gt;Ceramic Chip Capacitor KEMET 1206 Reflow solder&lt;/b&gt;&lt;p&gt;
@@ -6515,7 +6304,6 @@ Metric Code Size 3216</description>
 <packageinstances>
 <packageinstance name="C1206K"/>
 </packageinstances>
-<metadata pins="" leadSpan="" leadSpan2="" pitch="" pitch2="" bodyLength="" bodyWidth="" height="" ipcFamily="" ipcName="" jedecFamily="" jedecVariant="" mountingType=""/>
 </package3d>
 <package3d name="C1210K" urn="urn:adsk.eagle:package:6240399/1" type="box" library_version="2">
 <description>&lt;b&gt;Ceramic Chip Capacitor KEMET 1210 Reflow solder&lt;/b&gt;&lt;p&gt;
@@ -6523,7 +6311,6 @@ Metric Code Size 3225</description>
 <packageinstances>
 <packageinstance name="C1210K"/>
 </packageinstances>
-<metadata pins="" leadSpan="" leadSpan2="" pitch="" pitch2="" bodyLength="" bodyWidth="" height="" ipcFamily="" ipcName="" jedecFamily="" jedecVariant="" mountingType=""/>
 </package3d>
 <package3d name="C1812K" urn="urn:adsk.eagle:package:6240400/1" type="box" library_version="2">
 <description>&lt;b&gt;Ceramic Chip Capacitor KEMET 1812 Reflow solder&lt;/b&gt;&lt;p&gt;
@@ -6531,7 +6318,6 @@ Metric Code Size 4532</description>
 <packageinstances>
 <packageinstance name="C1812K"/>
 </packageinstances>
-<metadata pins="" leadSpan="" leadSpan2="" pitch="" pitch2="" bodyLength="" bodyWidth="" height="" ipcFamily="" ipcName="" jedecFamily="" jedecVariant="" mountingType=""/>
 </package3d>
 <package3d name="C1825K" urn="urn:adsk.eagle:package:6240401/1" type="box" library_version="2">
 <description>&lt;b&gt;Ceramic Chip Capacitor KEMET 1825 Reflow solder&lt;/b&gt;&lt;p&gt;
@@ -6539,7 +6325,6 @@ Metric Code Size 4564</description>
 <packageinstances>
 <packageinstance name="C1825K"/>
 </packageinstances>
-<metadata pins="" leadSpan="" leadSpan2="" pitch="" pitch2="" bodyLength="" bodyWidth="" height="" ipcFamily="" ipcName="" jedecFamily="" jedecVariant="" mountingType=""/>
 </package3d>
 <package3d name="C2220K" urn="urn:adsk.eagle:package:6240402/1" type="box" library_version="2">
 <description>&lt;b&gt;Ceramic Chip Capacitor KEMET 2220 Reflow solder&lt;/b&gt;&lt;p&gt;
@@ -6547,7 +6332,6 @@ Metric Code Size 5650</description>
 <packageinstances>
 <packageinstance name="C2220K"/>
 </packageinstances>
-<metadata pins="" leadSpan="" leadSpan2="" pitch="" pitch2="" bodyLength="" bodyWidth="" height="" ipcFamily="" ipcName="" jedecFamily="" jedecVariant="" mountingType=""/>
 </package3d>
 <package3d name="C2225K" urn="urn:adsk.eagle:package:6240403/1" type="box" library_version="2">
 <description>&lt;b&gt;Ceramic Chip Capacitor KEMET 2225 Reflow solder&lt;/b&gt;&lt;p&gt;
@@ -6555,7 +6339,6 @@ Metric Code Size 5664</description>
 <packageinstances>
 <packageinstance name="C2225K"/>
 </packageinstances>
-<metadata pins="" leadSpan="" leadSpan2="" pitch="" pitch2="" bodyLength="" bodyWidth="" height="" ipcFamily="" ipcName="" jedecFamily="" jedecVariant="" mountingType=""/>
 </package3d>
 </packages3d>
 <symbols>
@@ -7680,7 +7463,6 @@ Metric Code Size 5664</description>
 <packageinstances>
 <packageinstance name="CAPC1005X60"/>
 </packageinstances>
-<metadata pins="" leadSpan="" leadSpan2="" pitch="" pitch2="" bodyLength="" bodyWidth="" height="" ipcFamily="" ipcName="" jedecFamily="" jedecVariant="" mountingType=""/>
 </package3d>
 <package3d name="CAPC1110X102" urn="urn:adsk.eagle:package:16290904/2" type="model">
 <description>Chip, 1.17 X 1.02 X 1.02 mm body
@@ -7688,7 +7470,6 @@ Metric Code Size 5664</description>
 <packageinstances>
 <packageinstance name="CAPC1110X102"/>
 </packageinstances>
-<metadata pins="" leadSpan="" leadSpan2="" pitch="" pitch2="" bodyLength="" bodyWidth="" height="" ipcFamily="" ipcName="" jedecFamily="" jedecVariant="" mountingType=""/>
 </package3d>
 <package3d name="CAPC1608X85" urn="urn:adsk.eagle:package:16290898/2" type="model">
 <description>Chip, 1.60 X 0.80 X 0.85 mm body
@@ -7696,7 +7477,6 @@ Metric Code Size 5664</description>
 <packageinstances>
 <packageinstance name="CAPC1608X85"/>
 </packageinstances>
-<metadata pins="" leadSpan="" leadSpan2="" pitch="" pitch2="" bodyLength="" bodyWidth="" height="" ipcFamily="" ipcName="" jedecFamily="" jedecVariant="" mountingType=""/>
 </package3d>
 <package3d name="CAPC2012X110" urn="urn:adsk.eagle:package:16290897/2" type="model">
 <description>Chip, 2.00 X 1.25 X 1.10 mm body
@@ -7704,7 +7484,6 @@ Metric Code Size 5664</description>
 <packageinstances>
 <packageinstance name="CAPC2012X110"/>
 </packageinstances>
-<metadata pins="" leadSpan="" leadSpan2="" pitch="" pitch2="" bodyLength="" bodyWidth="" height="" ipcFamily="" ipcName="" jedecFamily="" jedecVariant="" mountingType=""/>
 </package3d>
 <package3d name="CAPC3216X135" urn="urn:adsk.eagle:package:16290893/2" type="model">
 <description>Chip, 3.20 X 1.60 X 1.35 mm body
@@ -7712,7 +7491,6 @@ Metric Code Size 5664</description>
 <packageinstances>
 <packageinstance name="CAPC3216X135"/>
 </packageinstances>
-<metadata pins="" leadSpan="" leadSpan2="" pitch="" pitch2="" bodyLength="" bodyWidth="" height="" ipcFamily="" ipcName="" jedecFamily="" jedecVariant="" mountingType=""/>
 </package3d>
 <package3d name="CAPC3225X135" urn="urn:adsk.eagle:package:16290903/2" type="model">
 <description>Chip, 3.20 X 2.50 X 1.35 mm body
@@ -7720,7 +7498,6 @@ Metric Code Size 5664</description>
 <packageinstances>
 <packageinstance name="CAPC3225X135"/>
 </packageinstances>
-<metadata pins="" leadSpan="" leadSpan2="" pitch="" pitch2="" bodyLength="" bodyWidth="" height="" ipcFamily="" ipcName="" jedecFamily="" jedecVariant="" mountingType=""/>
 </package3d>
 <package3d name="CAPC4532X135" urn="urn:adsk.eagle:package:16290900/2" type="model">
 <description>Chip, 4.50 X 3.20 X 1.35 mm body
@@ -7728,7 +7505,6 @@ Metric Code Size 5664</description>
 <packageinstances>
 <packageinstance name="CAPC4532X135"/>
 </packageinstances>
-<metadata pins="" leadSpan="" leadSpan2="" pitch="" pitch2="" bodyLength="" bodyWidth="" height="" ipcFamily="" ipcName="" jedecFamily="" jedecVariant="" mountingType=""/>
 </package3d>
 <package3d name="CAPM3216X180" urn="urn:adsk.eagle:package:16290894/2" type="model">
 <description>Molded Body, 3.20 X 1.60 X 1.80 mm body
@@ -7736,7 +7512,6 @@ Metric Code Size 5664</description>
 <packageinstances>
 <packageinstance name="CAPM3216X180"/>
 </packageinstances>
-<metadata pins="" leadSpan="" leadSpan2="" pitch="" pitch2="" bodyLength="" bodyWidth="" height="" ipcFamily="" ipcName="" jedecFamily="" jedecVariant="" mountingType=""/>
 </package3d>
 <package3d name="CAPM3528X210" urn="urn:adsk.eagle:package:16290902/2" type="model">
 <description>Molded Body, 3.50 X 2.80 X 2.10 mm body
@@ -7744,7 +7519,6 @@ Metric Code Size 5664</description>
 <packageinstances>
 <packageinstance name="CAPM3528X210"/>
 </packageinstances>
-<metadata pins="" leadSpan="" leadSpan2="" pitch="" pitch2="" bodyLength="" bodyWidth="" height="" ipcFamily="" ipcName="" jedecFamily="" jedecVariant="" mountingType=""/>
 </package3d>
 <package3d name="CAPM6032X280" urn="urn:adsk.eagle:package:16290896/2" type="model">
 <description>Molded Body, 6.00 X 3.20 X 2.80 mm body
@@ -7752,7 +7526,6 @@ Metric Code Size 5664</description>
 <packageinstances>
 <packageinstance name="CAPM6032X280"/>
 </packageinstances>
-<metadata pins="" leadSpan="" leadSpan2="" pitch="" pitch2="" bodyLength="" bodyWidth="" height="" ipcFamily="" ipcName="" jedecFamily="" jedecVariant="" mountingType=""/>
 </package3d>
 <package3d name="CAPM7343X310" urn="urn:adsk.eagle:package:16290891/2" type="model">
 <description>Molded Body, 7.30 X 4.30 X 3.10 mm body
@@ -7760,7 +7533,6 @@ Metric Code Size 5664</description>
 <packageinstances>
 <packageinstance name="CAPM7343X310"/>
 </packageinstances>
-<metadata pins="" leadSpan="" leadSpan2="" pitch="" pitch2="" bodyLength="" bodyWidth="" height="" ipcFamily="" ipcName="" jedecFamily="" jedecVariant="" mountingType=""/>
 </package3d>
 <package3d name="CAPC4564X110L" urn="urn:adsk.eagle:package:16290887/3" type="model">
 <description>Chip, 4.50 X 6.40 X 1.10 mm body
@@ -7768,7 +7540,6 @@ Metric Code Size 5664</description>
 <packageinstances>
 <packageinstance name="CAPC4564X110"/>
 </packageinstances>
-<metadata pins="" leadSpan="" leadSpan2="" pitch="" pitch2="" bodyLength="" bodyWidth="" height="" ipcFamily="" ipcName="" jedecFamily="" jedecVariant="" mountingType=""/>
 </package3d>
 <package3d name="CAPRD550W60D1025H1250B" urn="urn:adsk.eagle:package:16290858/2" type="model">
 <description>Radial Non-Polarized Capacitor, 5.50 mm pitch, 10.25 mm body diameter, 12.50 mm body height
@@ -7776,7 +7547,6 @@ Metric Code Size 5664</description>
 <packageinstances>
 <packageinstance name="CAPRD550W60D1025H1250B"/>
 </packageinstances>
-<metadata pins="" leadSpan="" leadSpan2="" pitch="" pitch2="" bodyLength="" bodyWidth="" height="" ipcFamily="" ipcName="" jedecFamily="" jedecVariant="" mountingType=""/>
 </package3d>
 <package3d name="CAPRD2261W240D5080H5555B" urn="urn:adsk.eagle:package:16290864/2" type="model">
 <description>Radial Non-Polarized Capacitor, 22.61 mm pitch, 50.80 mm body diameter, 55.55 mm body height
@@ -7784,7 +7554,6 @@ Metric Code Size 5664</description>
 <packageinstances>
 <packageinstance name="CAPRD2261W240D5080H5555B"/>
 </packageinstances>
-<metadata pins="" leadSpan="" leadSpan2="" pitch="" pitch2="" bodyLength="" bodyWidth="" height="" ipcFamily="" ipcName="" jedecFamily="" jedecVariant="" mountingType=""/>
 </package3d>
 </packages3d>
 <symbols>
@@ -8282,25 +8051,25 @@ Source: &lt;a href="https://drawings-pdf.s3.amazonaws.com/11091.pdf"&gt; Datashe
 </class>
 </classes>
 <parts>
-<part name="J1" library="dbt_shield" library_urn="urn:adsk.wipprod:fs.file:vf.NPYrNWWSQyiMp81r8Z_n0g" deviceset="1017505" device="" package3d_urn="urn:adsk.wipprod:fs.file:vf.m7DaAFBLSqSKF0bvPRCXpA?version=2"/>
-<part name="J2" library="dbt_shield" library_urn="urn:adsk.wipprod:fs.file:vf.NPYrNWWSQyiMp81r8Z_n0g" deviceset="1017505" device="" package3d_urn="urn:adsk.wipprod:fs.file:vf.m7DaAFBLSqSKF0bvPRCXpA?version=2"/>
-<part name="J3" library="dbt_shield" library_urn="urn:adsk.wipprod:fs.file:vf.NPYrNWWSQyiMp81r8Z_n0g" deviceset="1017503" device="" package3d_urn="urn:adsk.wipprod:fs.file:vf.39A9P8nRSk6G3U2_CFvkHg?version=3"/>
-<part name="U1" library="dbt_shield" library_urn="urn:adsk.wipprod:fs.file:vf.NPYrNWWSQyiMp81r8Z_n0g" deviceset="R-78E5.0-1.0" device="" package3d_urn="urn:adsk.wipprod:fs.file:vf.1udw4p7OTy6-3ADePweCeg?version=2"/>
+<part name="J1" library="dbt_shield" library_urn="urn:adsk.wipprod:fs.file:vf.NPYrNWWSQyiMp81r8Z_n0g" deviceset="1017505" device="" package3d_urn="urn:adsk.eagle:package:19468132/2"/>
+<part name="J2" library="dbt_shield" library_urn="urn:adsk.wipprod:fs.file:vf.NPYrNWWSQyiMp81r8Z_n0g" deviceset="1017505" device="" package3d_urn="urn:adsk.eagle:package:19468132/2"/>
+<part name="J3" library="dbt_shield" library_urn="urn:adsk.wipprod:fs.file:vf.NPYrNWWSQyiMp81r8Z_n0g" deviceset="1017503" device=""/>
+<part name="U1" library="dbt_shield" library_urn="urn:adsk.wipprod:fs.file:vf.NPYrNWWSQyiMp81r8Z_n0g" deviceset="R-78E5.0-1.0" device="" package3d_urn="urn:adsk.eagle:package:39086/1"/>
 <part name="SUPPLY2" library="Power_Symbols" deviceset="GND" device="" value="GND"/>
 <part name="V1" library="dbt_shield" library_urn="urn:adsk.wipprod:fs.file:vf.NPYrNWWSQyiMp81r8Z_n0g" deviceset="24V" device=""/>
 <part name="SUPPLY1" library="Power_Symbols" deviceset="GND" device="" value="GND"/>
-<part name="B1" library="dbt_shield" library_urn="urn:adsk.wipprod:fs.file:vf.NPYrNWWSQyiMp81r8Z_n0g" deviceset="ARDUINO_MEGA_R3" device="FULL" package3d_urn="urn:adsk.wipprod:fs.file:vf.1GUcU57nRmi38w6Fm-M00A?version=1"/>
+<part name="B1" library="dbt_shield" library_urn="urn:adsk.wipprod:fs.file:vf.NPYrNWWSQyiMp81r8Z_n0g" deviceset="ARDUINO_MEGA_R3" device="FULL" package3d_urn="urn:adsk.eagle:package:37320/1"/>
 <part name="SUPPLY3" library="Power_Symbols" deviceset="GND" device="" value="GND"/>
 <part name="R1" library="Resistor" deviceset="R" device="CHIP-1206(3216-METRIC)" package3d_urn="urn:adsk.eagle:package:16378566/2" technology="_" value="10k"/>
 <part name="C1" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C1206" package3d_urn="urn:adsk.eagle:package:6240335/1" value="0.1 uF"/>
 <part name="SUPPLY4" library="Power_Symbols" deviceset="GND" device="" value="GND"/>
-<part name="J4" library="dbt_shield" library_urn="urn:adsk.wipprod:fs.file:vf.NPYrNWWSQyiMp81r8Z_n0g" deviceset="1017505" device="" package3d_urn="urn:adsk.wipprod:fs.file:vf.m7DaAFBLSqSKF0bvPRCXpA?version=2"/>
-<part name="J5" library="dbt_shield" library_urn="urn:adsk.wipprod:fs.file:vf.NPYrNWWSQyiMp81r8Z_n0g" deviceset="1017509" device="" package3d_urn="urn:adsk.wipprod:fs.file:vf.JfdBvaLWTvez5_Np0YYUZQ?version=2"/>
-<part name="U$3" library="dbt_shield" library_urn="urn:adsk.wipprod:fs.file:vf.NPYrNWWSQyiMp81r8Z_n0g" deviceset="TMC_2130" device="" package3d_urn="urn:adsk.wipprod:fs.file:vf.n5QVlkDpQaejaxmX2LeodA?version=3"/>
-<part name="U$4" library="dbt_shield" library_urn="urn:adsk.wipprod:fs.file:vf.NPYrNWWSQyiMp81r8Z_n0g" deviceset="TMC_2130" device="" package3d_urn="urn:adsk.wipprod:fs.file:vf.n5QVlkDpQaejaxmX2LeodA?version=3"/>
+<part name="J4" library="dbt_shield" library_urn="urn:adsk.wipprod:fs.file:vf.NPYrNWWSQyiMp81r8Z_n0g" deviceset="1017505" device="" package3d_urn="urn:adsk.eagle:package:19468132/2"/>
+<part name="J5" library="dbt_shield" library_urn="urn:adsk.wipprod:fs.file:vf.NPYrNWWSQyiMp81r8Z_n0g" deviceset="1017509" device="" package3d_urn="urn:adsk.eagle:package:19468130/2"/>
+<part name="U$3" library="dbt_shield" library_urn="urn:adsk.wipprod:fs.file:vf.NPYrNWWSQyiMp81r8Z_n0g" deviceset="TMC_2130" device=""/>
+<part name="U$4" library="dbt_shield" library_urn="urn:adsk.wipprod:fs.file:vf.NPYrNWWSQyiMp81r8Z_n0g" deviceset="TMC_2130" device=""/>
 <part name="R2" library="Resistor" deviceset="R" device="CHIP-1206(3216-METRIC)" package3d_urn="urn:adsk.eagle:package:16378566/2" technology="_" value="180R"/>
 <part name="C2" library="Capacitor" deviceset="C" device="CHIP-1206(3216-METRIC)" package3d_urn="urn:adsk.eagle:package:16290893/2" technology="_" value="10uF 35V"/>
-<part name="LED1" library="dbt_shield" library_urn="urn:adsk.wipprod:fs.file:vf.NPYrNWWSQyiMp81r8Z_n0g" deviceset="LED" device="CHIPLED_1206" package3d_urn="urn:adsk.wipprod:fs.file:vf.1inixmgnTTOqVx1GCrRDgw?version=3" value="LTST-C150CKT">
+<part name="LED1" library="dbt_shield" library_urn="urn:adsk.wipprod:fs.file:vf.NPYrNWWSQyiMp81r8Z_n0g" deviceset="LED" device="CHIPLED_1206" package3d_urn="urn:adsk.eagle:package:6240560/1" value="LTST-C150CKT">
 <attribute name="SPICEPREFIX" value="D"/>
 </part>
 <part name="R3" library="Resistor" deviceset="R" device="CHIP-1206(3216-METRIC)" package3d_urn="urn:adsk.eagle:package:16378566/2" technology="_" value="1K"/>
@@ -8308,17 +8077,17 @@ Source: &lt;a href="https://drawings-pdf.s3.amazonaws.com/11091.pdf"&gt; Datashe
 <part name="SUPPLY6" library="Power_Symbols" deviceset="GND" device="" value="GND"/>
 <part name="R4" library="Resistor" deviceset="R" device="CHIP-1206(3216-METRIC)" package3d_urn="urn:adsk.eagle:package:16378566/2" technology="_" value="180R"/>
 <part name="C3" library="Capacitor" deviceset="C" device="CHIP-1206(3216-METRIC)" package3d_urn="urn:adsk.eagle:package:16290893/2" technology="_" value="10uF 35V"/>
-<part name="LED2" library="dbt_shield" library_urn="urn:adsk.wipprod:fs.file:vf.NPYrNWWSQyiMp81r8Z_n0g" deviceset="LED" device="CHIPLED_1206" package3d_urn="urn:adsk.wipprod:fs.file:vf.1inixmgnTTOqVx1GCrRDgw?version=3" value="LTST-C150CKT"/>
+<part name="LED2" library="dbt_shield" library_urn="urn:adsk.wipprod:fs.file:vf.NPYrNWWSQyiMp81r8Z_n0g" deviceset="LED" device="CHIPLED_1206" package3d_urn="urn:adsk.eagle:package:6240560/1" value="LTST-C150CKT"/>
 <part name="R5" library="Resistor" deviceset="R" device="CHIP-1206(3216-METRIC)" package3d_urn="urn:adsk.eagle:package:16378566/2" technology="_" value="1K"/>
 <part name="SUPPLY7" library="Power_Symbols" deviceset="GND" device="" value="GND"/>
 <part name="SUPPLY8" library="Power_Symbols" deviceset="GND" device="" value="GND"/>
-<part name="Q1" library="dbt_shield" library_urn="urn:adsk.wipprod:fs.file:vf.NPYrNWWSQyiMp81r8Z_n0g" deviceset="IPC100N04S5L1R9" device="" package3d_urn="urn:adsk.wipprod:fs.file:vf.2Sj8-QmDRZO_X1YijbOqag?version=4"/>
-<part name="Q2" library="dbt_shield" library_urn="urn:adsk.wipprod:fs.file:vf.NPYrNWWSQyiMp81r8Z_n0g" deviceset="IPC100N04S5L1R9" device="" package3d_urn="urn:adsk.wipprod:fs.file:vf.2Sj8-QmDRZO_X1YijbOqag?version=4">
+<part name="Q1" library="dbt_shield" library_urn="urn:adsk.wipprod:fs.file:vf.NPYrNWWSQyiMp81r8Z_n0g" deviceset="IPC100N04S5L1R9" device=""/>
+<part name="Q2" library="dbt_shield" library_urn="urn:adsk.wipprod:fs.file:vf.NPYrNWWSQyiMp81r8Z_n0g" deviceset="IPC100N04S5L1R9" device="">
 <attribute name="SPICEPREFIX" value="X"/>
 </part>
-<part name="U$1" library="dbt_shield" library_urn="urn:adsk.wipprod:fs.file:vf.NPYrNWWSQyiMp81r8Z_n0g" deviceset="1861991" device="" package3d_urn="urn:adsk.wipprod:fs.file:vf.3p2zNrM9R4G_cC9YF4mKSA?version=4"/>
-<part name="U$2" library="dbt_shield" library_urn="urn:adsk.wipprod:fs.file:vf.NPYrNWWSQyiMp81r8Z_n0g" deviceset="1861991" device="" package3d_urn="urn:adsk.wipprod:fs.file:vf.3p2zNrM9R4G_cC9YF4mKSA?version=4"/>
-<part name="Q3" library="dbt_shield" library_urn="urn:adsk.wipprod:fs.file:vf.NPYrNWWSQyiMp81r8Z_n0g" deviceset="PMV40UN2R" device="" package3d_urn="urn:adsk.wipprod:fs.file:vf.fJ_VMPssQmibBVHDTQkAAA?version=2"/>
+<part name="U$1" library="dbt_shield" library_urn="urn:adsk.wipprod:fs.file:vf.NPYrNWWSQyiMp81r8Z_n0g" deviceset="1861991" device=""/>
+<part name="U$2" library="dbt_shield" library_urn="urn:adsk.wipprod:fs.file:vf.NPYrNWWSQyiMp81r8Z_n0g" deviceset="1861991" device=""/>
+<part name="Q3" library="dbt_shield" library_urn="urn:adsk.wipprod:fs.file:vf.NPYrNWWSQyiMp81r8Z_n0g" deviceset="PMV40UN2R" device=""/>
 <part name="R6" library="Resistor" deviceset="R" device="CHIP-1206(3216-METRIC)" package3d_urn="urn:adsk.eagle:package:16378566/2" technology="_" value="1k"/>
 <part name="R7" library="Resistor" deviceset="R" device="CHIP-1206(3216-METRIC)" package3d_urn="urn:adsk.eagle:package:16378566/2" technology="_" value="10k"/>
 <part name="R8" library="Resistor" deviceset="R" device="CHIP-1206(3216-METRIC)" package3d_urn="urn:adsk.eagle:package:16378566/2" technology="_" value="1k"/>
@@ -8331,8 +8100,8 @@ Source: &lt;a href="https://drawings-pdf.s3.amazonaws.com/11091.pdf"&gt; Datashe
 <part name="SUPPLY9" library="Power_Symbols" deviceset="GND" device="" value="GND"/>
 <part name="SUPPLY10" library="Power_Symbols" deviceset="GND" device="" value="GND"/>
 <part name="SUPPLY11" library="Power_Symbols" deviceset="GND" device="" value="GND"/>
-<part name="J6" library="dbt_shield" library_urn="urn:adsk.wipprod:fs.file:vf.NPYrNWWSQyiMp81r8Z_n0g" deviceset="1017507" device="" package3d_urn="urn:adsk.wipprod:fs.file:vf.GR8f90w0Twe2sy-XS5XCgg?version=2"/>
-<part name="IC1" library="dbt_shield" library_urn="urn:adsk.wipprod:fs.file:vf.NPYrNWWSQyiMp81r8Z_n0g" deviceset="TLP292-4_V4-LA,E" device="" package3d_urn="urn:adsk.wipprod:fs.file:vf.tTWbjwVvQZ6MIZO2yEyCpg?version=2"/>
+<part name="J6" library="dbt_shield" library_urn="urn:adsk.wipprod:fs.file:vf.NPYrNWWSQyiMp81r8Z_n0g" deviceset="1017507" device="" package3d_urn="urn:adsk.eagle:package:19468131/2"/>
+<part name="IC1" library="dbt_shield" library_urn="urn:adsk.wipprod:fs.file:vf.NPYrNWWSQyiMp81r8Z_n0g" deviceset="TLP292-4_V4-LA,E" device="" package3d_urn="urn:adsk.eagle:package:19468118/2"/>
 <part name="R12" library="Resistor" deviceset="R" device="CHIP-1206(3216-METRIC)" package3d_urn="urn:adsk.eagle:package:16378566/2" technology="_" value="10K"/>
 <part name="R13" library="Resistor" deviceset="R" device="CHIP-1206(3216-METRIC)" package3d_urn="urn:adsk.eagle:package:16378566/2" technology="_" value="6.8K"/>
 <part name="R14" library="Resistor" deviceset="R" device="CHIP-1206(3216-METRIC)" package3d_urn="urn:adsk.eagle:package:16378566/2" technology="_" value="10K"/>
@@ -8342,8 +8111,8 @@ Source: &lt;a href="https://drawings-pdf.s3.amazonaws.com/11091.pdf"&gt; Datashe
 <part name="R18" library="Resistor" deviceset="R" device="CHIP-1206(3216-METRIC)" package3d_urn="urn:adsk.eagle:package:16378566/2" technology="_" value="10K"/>
 <part name="R19" library="Resistor" deviceset="R" device="CHIP-1206(3216-METRIC)" package3d_urn="urn:adsk.eagle:package:16378566/2" technology="_" value="6.8K"/>
 <part name="SUPPLY12" library="Power_Symbols" deviceset="GND" device="" value="GND"/>
-<part name="Q4" library="dbt_shield" library_urn="urn:adsk.wipprod:fs.file:vf.NPYrNWWSQyiMp81r8Z_n0g" deviceset="PMV40UN2R" device="" package3d_urn="urn:adsk.wipprod:fs.file:vf.fJ_VMPssQmibBVHDTQkAAA?version=2"/>
-<part name="Q5" library="dbt_shield" library_urn="urn:adsk.wipprod:fs.file:vf.NPYrNWWSQyiMp81r8Z_n0g" deviceset="PMV40UN2R" device="" package3d_urn="urn:adsk.wipprod:fs.file:vf.fJ_VMPssQmibBVHDTQkAAA?version=2"/>
+<part name="Q4" library="dbt_shield" library_urn="urn:adsk.wipprod:fs.file:vf.NPYrNWWSQyiMp81r8Z_n0g" deviceset="PMV40UN2R" device=""/>
+<part name="Q5" library="dbt_shield" library_urn="urn:adsk.wipprod:fs.file:vf.NPYrNWWSQyiMp81r8Z_n0g" deviceset="PMV40UN2R" device=""/>
 <part name="J7" library="SBH11-PBPC-D07-ST-BK" deviceset="SBH11-PBPC-D07-ST-BK" device=""/>
 </parts>
 <sheets>
