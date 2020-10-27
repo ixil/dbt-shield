@@ -30,18 +30,18 @@ double Setpoint, Input, Output;
 double Kp=2, Ki=5, Kd=1;
 PID myPID(&Input, &Output, &Setpoint, Kp, Ki, Kd, DIRECT);
 
-const int WindowSize = 5000;
+const int WindowSize = 2000;
 unsigned long windowStartTime;
 unsigned long time_1 = 0;
 char buffer[64];
 int sofar;
-float mm, fr, flow;
+float mm, fr, flow, tempt;
 bool heaterOn = false;
 
 /********************************************************
  * THERMOCOUPLE
  ********************************************************/
-Adafruit_MAX31855 t1 (SCK, T1_CS, MISO);
+Adafruit_MAX31855 t1 (SCK, T2_CS, MISO);
 
 byte BSPEED = 0b00000000;
 int IN_PINS[] = {IN_b0, IN_b1, IN_b2, IN_b3, IN_b4, IN_b5, IN_b6, IN_b7};
@@ -126,6 +126,8 @@ void processCommand(){
     heaterOn = true; break;
   case 108:
     heaterOn = false; break;
+  case 110:
+    digitalWrite(13, HIGH); break;
   case 111:
     flow = parseNumber('R', flow);
   default: break;
@@ -137,14 +139,17 @@ void print_stat(){
     Serial.print("T");
     Serial.println(Input);
 
+
     Serial.print("S");
     Serial.println(TOOL_SPEED);
 
     Serial.print("H");
     Serial.println(heaterOn);
 
-    Serial.println("");
-    //Serial.println();
+    //Serial.print("test");
+    //Serial.println(BSPEED);
+
+    Serial.print("");
 
 }
 
@@ -152,6 +157,7 @@ void setup()
 {
   pinMode(SSR_0_PIN, OUTPUT);
   pinMode(MOSFET_0_PIN, OUTPUT);
+  pinMode(13, OUTPUT);
   pinMode(IN_b0, INPUT);
   pinMode(IN_b1, INPUT);
   pinMode(IN_b2, INPUT);
@@ -161,7 +167,7 @@ void setup()
   pinMode(IN_b6, INPUT);
   pinMode(IN_b7, INPUT);
 
-  digitalWrite(MOSFET_0_PIN, HIGH);
+  digitalWrite(13, HIGH);
 
   Serial.begin(9600);
 
@@ -176,7 +182,7 @@ void setup()
 
   windowStartTime = millis();
   //initialize the variables we're linked to
-  Setpoint = 220;
+  Setpoint = 60;
 
   //tell the PID to range between 0 and the full window size
   myPID.SetOutputLimits(0, WindowSize);
@@ -184,7 +190,7 @@ void setup()
   //turn the PID on
   myPID.SetMode(AUTOMATIC);
 
-  Input = 200;
+  Input = t1.readCelsius();
   flow = 1.0;
   /*
   Serial.print("Initializing sensor...");
@@ -209,27 +215,35 @@ void loop()
   }
   
   if(heaterOn){
-     myPID.Compute();
+    
+    //Input = t1.readCelsius();
+    myPID.Compute();
     /************************************************
     * turn the output pin on/off based on pid output
     ************************************************/
     if (millis() - windowStartTime > WindowSize)
     { //time to shift the Relay Window
-      //Input = t1.readCelsius();
-      if(Input < Setpoint) {
-        Input ++;}else{
-        Input--;
-        }
       windowStartTime += WindowSize;
     }
-    if (Output < millis() - windowStartTime) digitalWrite(SSR_0_PIN, HIGH);
-    else digitalWrite(SSR_0_PIN, LOW);
+    if (Output < millis() - windowStartTime){
+      digitalWrite(SSR_0_PIN, HIGH);
+      Serial.println("HEATER ON");
+      //Serial.println(Output);
+    }else{
+      digitalWrite(SSR_0_PIN, LOW);
+    } 
   }
   
-  if(millis() > time_1 + 2000){
+  if(millis() > time_1 + 1000){
     time_1 = millis();
-
+    tempt = t1.readCelsius();
+    if(!isnan(tempt)){
+    Input = tempt;
+    }
     print_stat();
+    updateSpeed();
+
+    digitalWrite(13, HIGH);
   }
     
   

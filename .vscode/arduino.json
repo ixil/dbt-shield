@@ -1,5 +1,5 @@
 {
     "board": "arduino:avr:mega",
     "configuration": "cpu=atmega2560",
-    "sketch": "shield\\arduino\\DBT-Shield\\DBT-Shield.ino"
+    "sketch": "shield/arduino/DBT-Shield/DBT-Shield.ino"
 }
