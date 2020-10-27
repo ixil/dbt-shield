@@ -1,5 +1,5 @@
 #include <Arduino.h>
-#include "serial.h"
+#include "Serial.h"
 
 void exec(char *cmdline)
 {
