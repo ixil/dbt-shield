@@ -41,19 +41,19 @@
 
 // Declare Variables used in this class
 // They aren't private because the ISR needs to access them
-ClearPathMotorSD* _motors[6];					//6 clearpath motor pointers for up to 6 digital pins in PORTB
+ClearPathMotorSD* _motors[6];					//6 clearpath motor pointers for up to 6 digital pins in PORTA
 uint8_t _numAxis=0;							//this keeps track of how many pointers are active
 uint8_t _BurstSteps[6]={0, 0, 0, 0, 0, 0};	//this is the container for the motors to dump however many steps need to be pulsed
 uint8_t _pins[6]={0, 0, 0, 0, 0, 0};		//This holds the port address (Binary) for each motors Step Pin
 uint8_t _SUMPINS=0;							//This holds the Binary Sum of all active motor Step Pin addresses
-uint8_t _OutputBits;						//this is the container to write to output PORTB
+uint8_t _OutputBits;						//this is the container to write to output PORTA
 boolean _flag=false;						//This is the flag to show when to finish pulsing the motors
 
 
 
 
 //This is the Interupt Service Routine.
-// It asks each motor how many steps to send, and then pulses to PORTB
+// It asks each motor how many steps to send, and then pulses to PORTA
 ISR(TIMER2_COMPA_vect)
 {  
 	//Prevent Interupts
@@ -76,7 +76,7 @@ ISR(TIMER2_COMPA_vect)
 
 		_flag=false;
 
-		_OutputBits = PORTB;	//Read the port
+		_OutputBits = PORTA;	//Read the port
 
 		if(_BurstSteps[0] && _BurstSteps[0]--)	//Assume at least one axis is active, and check/decrement BurstSteps
 		{
@@ -108,10 +108,10 @@ ISR(TIMER2_COMPA_vect)
 			_flag=true; 
 			_OutputBits |= _pins[5];	//Activate the B input for motor 6
 		}
-		PORTB = _OutputBits;			//Write to the ports
+		PORTA = _OutputBits;			//Write to the ports
 		delayMicroseconds(2);			//Short Delay
 		_OutputBits &=63-_SUMPINS ;	//Turn off all active pins
-		PORTB = _OutputBits;			//Write to the ports
+		PORTA = _OutputBits;			//Write to the ports
 
 	} while(_flag);
 
@@ -135,8 +135,8 @@ ClearPathStepGen::ClearPathStepGen(ClearPathMotorSD* motor1)
 	_flag=false;
 	_numAxis=1;
 	_motors[0]=motor1;
-	if(_motors[0]->PinB-8 >= 0)
-		_pins[0]=(1<<(_motors[0]->PinB-8));
+	if(_motors[0]->PinB-22 >= 0)
+		_pins[0]=(1<<(_motors[0]->PinB-22));
 	_SUMPINS=_pins[0];
 }
 
@@ -154,10 +154,10 @@ ClearPathStepGen::ClearPathStepGen(ClearPathMotorSD* motor1, ClearPathMotorSD* m
 	_numAxis=2;
 	_motors[0]=motor1;
 	_motors[1]=motor2;
-	if(_motors[0]->PinB-8 >= 0)
-		_pins[0]=(1<<(_motors[0]->PinB-8));
-	if(_motors[1]->PinB-8 >= 0)
-		_pins[1]=(1<<(_motors[1]->PinB-8));
+	if(_motors[0]->PinB-22 >= 0)
+		_pins[0]=(1<<(_motors[0]->PinB-22));
+	if(_motors[1]->PinB-22 >= 0)
+		_pins[1]=(1<<(_motors[1]->PinB-22));
 	_SUMPINS=_pins[0]+_pins[1];
 }
 
@@ -176,12 +176,12 @@ ClearPathStepGen::ClearPathStepGen(ClearPathMotorSD* motor1, ClearPathMotorSD* m
    _motors[0]=motor1;
    _motors[1]=motor2;
    _motors[2]=motor3;
-   if(_motors[0]->PinB-8 >= 0)
-	_pins[0]=(1<<(_motors[0]->PinB-8));
-   if(_motors[1]->PinB-8 >= 0)
-    _pins[1]=(1<<(_motors[1]->PinB-8));
-   if(_motors[2]->PinB-8 >= 0)
-    _pins[2]=(1<<(_motors[2]->PinB-8));
+   if(_motors[0]->PinB-22 >= 0)
+	_pins[0]=(1<<(_motors[0]->PinB-22));
+   if(_motors[1]->PinB-22 >= 0)
+    _pins[1]=(1<<(_motors[1]->PinB-22));
+   if(_motors[2]->PinB-22 >= 0)
+    _pins[2]=(1<<(_motors[2]->PinB-22));
    _SUMPINS=_pins[0]+_pins[1]+_pins[2];
   
 }
@@ -202,14 +202,14 @@ ClearPathStepGen::ClearPathStepGen(ClearPathMotorSD* motor1, ClearPathMotorSD* m
    _motors[1]=motor2;
    _motors[2]=motor3;
    _motors[3]=motor4;
-   if(_motors[0]->PinB-8 >= 0)
-	_pins[0]=(1<<(_motors[0]->PinB-8));
-   if(_motors[1]->PinB-8 >= 0)
-    _pins[1]=(1<<(_motors[1]->PinB-8));
-   if(_motors[2]->PinB-8 >= 0)
-    _pins[2]=(1<<(_motors[2]->PinB-8));
-   if(_motors[3]->PinB-8 >= 0)
-   _pins[3]=(1<<(_motors[3]->PinB-8));
+   if(_motors[0]->PinB-22 >= 0)
+	_pins[0]=(1<<(_motors[0]->PinB-22));
+   if(_motors[1]->PinB-22 >= 0)
+    _pins[1]=(1<<(_motors[1]->PinB-22));
+   if(_motors[2]->PinB-22 >= 0)
+    _pins[2]=(1<<(_motors[2]->PinB-22));
+   if(_motors[3]->PinB-22 >= 0)
+   _pins[3]=(1<<(_motors[3]->PinB-22));
    _SUMPINS=_pins[0]+_pins[1]+_pins[2]+_pins[3];
   
 }
@@ -231,16 +231,16 @@ ClearPathStepGen::ClearPathStepGen(ClearPathMotorSD* motor1, ClearPathMotorSD* m
    _motors[2]=motor3;
    _motors[3]=motor4;
    _motors[4]=motor5;
-   if(_motors[0]->PinB-8 >= 0)
-	_pins[0]=(1<<(_motors[0]->PinB-8));
-   if(_motors[1]->PinB-8 >= 0)
-    _pins[1]=(1<<(_motors[1]->PinB-8));
-   if(_motors[2]->PinB-8 >= 0)
-    _pins[2]=(1<<(_motors[2]->PinB-8));
-   if(_motors[3]->PinB-8 >= 0)
-    _pins[3]=(1<<(_motors[3]->PinB-8));
-   if(_motors[4]->PinB-8 >= 0)
-    _pins[4]=(1<<(_motors[4]->PinB-8));
+   if(_motors[0]->PinB-22 >= 0)
+	_pins[0]=(1<<(_motors[0]->PinB-22));
+   if(_motors[1]->PinB-22 >= 0)
+    _pins[1]=(1<<(_motors[1]->PinB-22));
+   if(_motors[2]->PinB-22 >= 0)
+    _pins[2]=(1<<(_motors[2]->PinB-22));
+   if(_motors[3]->PinB-22 >= 0)
+    _pins[3]=(1<<(_motors[3]->PinB-22));
+   if(_motors[4]->PinB-22 >= 0)
+    _pins[4]=(1<<(_motors[4]->PinB-22));
    _SUMPINS=_pins[0]+_pins[1]+_pins[2]+_pins[3]+_pins[4];
   
 }
@@ -263,18 +263,18 @@ ClearPathStepGen::ClearPathStepGen(ClearPathMotorSD* motor1, ClearPathMotorSD* m
    _motors[3]=motor4;
    _motors[4]=motor5;
    _motors[5]=motor6;
-   if(_motors[0]->PinB-8 >= 0)
-	_pins[0]=(1<<(_motors[0]->PinB-8));
-   if(_motors[1]->PinB-8 >= 0)
-    _pins[1]=(1<<(_motors[1]->PinB-8));
-   if(_motors[2]->PinB-8 >= 0)
-    _pins[2]=(1<<(_motors[2]->PinB-8));
-   if(_motors[3]->PinB-8 >= 0)
-    _pins[3]=(1<<(_motors[3]->PinB-8));
-   if(_motors[4]->PinB-8 >= 0)
-    _pins[4]=(1<<(_motors[4]->PinB-8));
-   if(_motors[5]->PinB-8 >= 0)
-    _pins[5]=(1<<(_motors[5]->PinB-8));
+   if(_motors[0]->PinB-22 >= 0)
+	_pins[0]=(1<<(_motors[0]->PinB-22));
+   if(_motors[1]->PinB-22 >= 0)
+    _pins[1]=(1<<(_motors[1]->PinB-22));
+   if(_motors[2]->PinB-22 >= 0)
+    _pins[2]=(1<<(_motors[2]->PinB-22));
+   if(_motors[3]->PinB-22 >= 0)
+    _pins[3]=(1<<(_motors[3]->PinB-22));
+   if(_motors[4]->PinB-22 >= 0)
+    _pins[4]=(1<<(_motors[4]->PinB-22));
+   if(_motors[5]->PinB-22 >= 0)
+    _pins[5]=(1<<(_motors[5]->PinB-22));
    _SUMPINS=_pins[0]+_pins[1]+_pins[2]+_pins[3]+_pins[4]+_pins[5];
   
 }
@@ -289,8 +289,8 @@ void ClearPathStepGen::Start()
 	_SUMPINS=0;
 	for( int i=0; i<_numAxis; i++)
 	{
-		if(_motors[i]->PinB-8 >= 0)
-			_pins[i]=(1<<(_motors[i]->PinB-8));
+		if(_motors[i]->PinB-22 >= 0)
+			_pins[i]=(1<<(_motors[i]->PinB-22));
 		_SUMPINS+=_pins[i];
 	}
 	
