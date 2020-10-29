@@ -7,7 +7,7 @@
 
 void setup()
 {
-    Serial.begin(115200);
+    Serial.begin(9600);
 }
 
 void loop()
@@ -15,6 +15,6 @@ void loop()
     processCom();
     updateTemp();
     if(isHot()){
-        Serial.println("ITS HOT");
+        //Serial.println("ITS HOT");
     }
 }

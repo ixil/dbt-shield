@@ -3,8 +3,8 @@
 
 void updateTemp()
 {
-    tempc++;
-    Serial.println(tempc);
+    //tempc++;
+    //Serial.println(tempc);
 }
 
 bool isHot()
