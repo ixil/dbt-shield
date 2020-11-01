@@ -145,9 +145,10 @@ void Stepper::updateStepperTimer5(const Stepper &st){
   TIMSK5 = bit(OCIE5A);
   OCR5AH = st.targetPulse >> 8;
   OCR5AL = st.targetPulse & 0x0F;
+  TCNT5 = 0xFFE0;
   sei();
-  TCNT5 = 0xFFFF;
-  st.printStatus();
+  delayMicroseconds(10);
+  // st.printStatus();
   // order matters, High byte write first
 }
 
@@ -157,9 +158,10 @@ void Stepper::updateStepperTimer4(const Stepper &st){
   OCR4B = st.targetPulse;
   OCR4AH = st.targetPulse >> 8;
   OCR4AL = st.targetPulse & 0x0F;
+  TCNT4 = 0xFFE0;
   sei();
-  TCNT4 = 0xFFFF;
-  st.printStatus();
+  delayMicroseconds(10);
+  // st.printStatus();
   // order matters, High byte write first
 }
 
