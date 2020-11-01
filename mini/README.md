@@ -14,3 +14,14 @@ The 2x16 pin terminal blocks on the right side are directly connected to the res
 
 ## Set-up
 ---
+
+## Digital-Input
+
+In.b0 = heater enable, active LOW
+In.b1 = stepper enable, active LOW
+In.b2 = speed 
+In.b3 = speed 
+
+speed(5mm/s)  01
+speed(15mm/s) 10
+speed(30mm/s) 11
